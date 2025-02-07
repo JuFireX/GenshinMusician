@@ -8,10 +8,9 @@ import time
 import numpy as np
 import pyautogui
 import cv2
-import ctypes
 
 
-template_path = "songs\\data\\matchpicture.png"
+template_path = "data\\matchpicture.png"
 target_size = (1854, 632)
 
 gui_condition = -1  # 0: 暂停， 1: 运行， -1: 结束
@@ -148,7 +147,7 @@ light_stylesheet = """
 
 # 检测系统主题
 def is_system_light_mode():
-    return 1  # 这里暂时返回False，以便调试，真实环境下应该调用系统API获取系统主题
+    return 1  # 这里暂时返回True，以便调试，真实环境下应该调用系统API获取系统主题
 
 
 def load_musical_score(filename):
@@ -205,7 +204,7 @@ class MainLogicWorker(QThread):
         click = self.click
         self.scores = load_musical_score(get_path)
         scores = self.scores
-        self.tik = 60 / get_bpm
+        self.tik = 12 / get_bpm
         try:
             pyautogui.click(self.click)
         except pyautogui.FailSafeException:
@@ -222,8 +221,8 @@ class MainLogicWorker(QThread):
         self.log.emit("主逻辑开始")
 
         if not self.active():
-            self.log.emit("主逻辑异常结束")
             gui_condition = -1
+            self.log.emit("主逻辑异常结束")
             return
 
         index = 0
@@ -232,7 +231,6 @@ class MainLogicWorker(QThread):
                 break
 
             if gui_condition == 0:
-                self.msleep(100)
                 continue
 
             chord = self.scores[index]
@@ -240,8 +238,9 @@ class MainLogicWorker(QThread):
             time.sleep(self.tik)
             index += 1
 
-        self.log.emit("主逻辑结束")
         gui_condition = -1
+        self.log.emit("主逻辑结束")
+        time.sleep(0.5)
 
 
 class RunButton(QPushButton):
@@ -257,9 +256,9 @@ class RunButton(QPushButton):
 
     def update_icon(self):
         if is_system_light_mode():
-            self.setIcon(QIcon("songs\\data\\run light mode.svg"))
+            self.setIcon(QIcon("data\\run light mode.svg"))
         else:
-            self.setIcon(QIcon("songs\\data\\run dark mode.svg"))
+            self.setIcon(QIcon("data\\run dark mode.svg"))
 
     def run_clicked(self):
         global gui_condition, get_path, get_bpm
@@ -275,9 +274,9 @@ class RunButton(QPushButton):
         try:
             get_path = str(self.path_in.text())
             get_bpm = int(self.bpm_in.text())
+            gui_condition = 1
             self.clicked_button_run.emit(f'乐谱路径 "{get_path}"\n预定速度 {get_bpm}')
             self.clicked_button_run.emit(f"等待主逻辑响应···")
-            gui_condition = 1
         except:
             self.clicked_button_run.emit(f"获取路径或速度失败！")
             return
@@ -294,9 +293,9 @@ class PauseButton(QPushButton):
 
     def update_icon(self):
         if is_system_light_mode():
-            self.setIcon(QIcon("songs\\data\\pause light mode.svg"))
+            self.setIcon(QIcon("data\\pause light mode.svg"))
         else:
-            self.setIcon(QIcon("songs\\data\\pause dark mode.svg"))
+            self.setIcon(QIcon("data\\pause dark mode.svg"))
 
     def pause_clicked(self):
         global gui_condition, get_path, get_bpm
@@ -304,13 +303,14 @@ class PauseButton(QPushButton):
             self.clicked_button_pause.emit(f"没有歌曲正在运行！")
             return
         if gui_condition == 1:
-            self.clicked_button_pause.emit(f'歌曲 "{get_path}" 暂停')
             gui_condition = 0
-        else:
+            self.clicked_button_pause.emit(f'歌曲 "{get_path}" 暂停')
+            time.sleep(0.5)
+        if gui_condition == 0:
+            gui_condition = 1
             self.clicked_button_pause.emit(f'歌曲 "{get_path}" 继续')
             pyautogui.click(click)
             time.sleep(0.5)
-            gui_condition = 1
 
 
 class StopButton(QPushButton):
@@ -324,17 +324,18 @@ class StopButton(QPushButton):
 
     def update_icon(self):
         if is_system_light_mode():
-            self.setIcon(QIcon("songs\\data\\stop light mode.svg"))
+            self.setIcon(QIcon("data\\stop light mode.svg"))
         else:
-            self.setIcon(QIcon("songs\\data\\stop dark mode.svg"))
+            self.setIcon(QIcon("data\\stop dark mode.svg"))
 
     def stop_clicked(self):
         global gui_condition, get_path, get_bpm
         if gui_condition == -1:
             self.clicked_button_stop.emit("没有歌曲正在运行！")
             return
-        self.clicked_button_stop.emit(f'歌曲 "{get_path}" 停止运行')
         gui_condition = -1
+        self.clicked_button_stop.emit(f'歌曲 "{get_path}" 停止运行')
+        time.sleep(0.5)
 
 
 class MainWindow(QMainWindow):
@@ -345,9 +346,9 @@ class MainWindow(QMainWindow):
         self.setFixedSize(600, 800)
         self.setWindowOpacity(0.95)
         if is_system_light_mode():
-            self.setWindowIcon(QIcon("songs\\data\\icon light mode.svg"))
+            self.setWindowIcon(QIcon("data\\icon light mode.svg"))
         else:
-            self.setWindowIcon(QIcon("songs\\data\\icon dark mode.svg"))
+            self.setWindowIcon(QIcon("data\\icon dark mode.svg"))
         self.initUI()
 
     def initUI(self):  # 创建主界面
@@ -386,9 +387,6 @@ class MainWindow(QMainWindow):
         self.scroll_area = QScrollArea(widget)
         self.scroll_area.setGeometry(40, 330, 520, 360)
         self.scroll_area.setWidgetResizable(True)
-        #cursor = self.scroll_area.textCursor()
-        #cursor.movePosition(QTextCursor.End)
-        #self.scroll_area.setTextCursor(cursor)
 
         self.log_content = QWidget()
         self.scroll_area.setWidget(self.log_content)
@@ -441,25 +439,15 @@ def worker_thread(worker: MainLogicWorker):
         if gui_condition == 1:
             worker.work()
             gui_condition = -1
+            time.sleep(0.5)
 
 
 if __name__ == "__main__":
-    def is_admin():
-        try:
-            return ctypes.windll.shell32.IsUserAnAdmin()
-        except:
-            return False
-    if not is_admin():
-        #以管理员身份重新运行脚本
-        ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, " ".join(sys.argv), None, 1)
-    else:
-        print("已经是管理员权限运行")
-    if is_admin():
-        app = QApplication(sys.argv)
-        window = MainWindow()
-        worker = MainLogicWorker()
-        worker.log.connect(window.add_log)
-        worker_loop = threading.Thread(target=worker_thread, args=(worker,))
-        worker_loop.daemon = True
-        worker_loop.start()
-        gui_main(app, window)
+    app = QApplication(sys.argv)
+    window = MainWindow()
+    worker = MainLogicWorker()
+    worker.log.connect(window.add_log)
+    worker_loop = threading.Thread(target=worker_thread, args=(worker,))
+    worker_loop.daemon = True
+    worker_loop.start()
+    gui_main(app, window)
