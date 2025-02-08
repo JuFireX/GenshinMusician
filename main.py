@@ -146,8 +146,8 @@ light_stylesheet = """
 
 
 # 检测系统主题
-def is_system_light_mode():
-    return 1  # 这里暂时返回True，以便调试，真实环境下应该调用系统API获取系统主题
+def is_system_dark_mode():
+    return 0  # 这里暂时返回False，以便调试。
 
 
 def load_musical_score(filename):
@@ -255,7 +255,7 @@ class RunButton(QPushButton):
         self.update_icon()
 
     def update_icon(self):
-        if is_system_light_mode():
+        if is_system_dark_mode():
             self.setIcon(QIcon("data\\run light mode.svg"))
         else:
             self.setIcon(QIcon("data\\run dark mode.svg"))
@@ -292,7 +292,7 @@ class PauseButton(QPushButton):
         self.update_icon()
 
     def update_icon(self):
-        if is_system_light_mode():
+        if is_system_dark_mode():
             self.setIcon(QIcon("data\\pause light mode.svg"))
         else:
             self.setIcon(QIcon("data\\pause dark mode.svg"))
@@ -323,7 +323,7 @@ class StopButton(QPushButton):
         self.update_icon()
 
     def update_icon(self):
-        if is_system_light_mode():
+        if is_system_dark_mode():
             self.setIcon(QIcon("data\\stop light mode.svg"))
         else:
             self.setIcon(QIcon("data\\stop dark mode.svg"))
@@ -345,7 +345,7 @@ class MainWindow(QMainWindow):
         self.setWindowTitle("Genshin Musician")
         self.setFixedSize(600, 800)
         self.setWindowOpacity(0.95)
-        if is_system_light_mode():
+        if is_system_dark_mode():
             self.setWindowIcon(QIcon("data\\icon light mode.svg"))
         else:
             self.setWindowIcon(QIcon("data\\icon dark mode.svg"))
@@ -354,7 +354,7 @@ class MainWindow(QMainWindow):
     def initUI(self):  # 创建主界面
         widget = QWidget(self)
         self.setCentralWidget(widget)
-        if is_system_light_mode():
+        if is_system_dark_mode():
             self.setStyleSheet(light_stylesheet)  # 设置浅色主题
         else:
             self.setStyleSheet(dark_stylesheet)  # 设置暗色主题
