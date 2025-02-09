@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>res/icon dark mode.svg</file>
+    <file>res/icon light mode.svg</file>
+    <file>res/pause dark mode.svg</file>
+    <file>res/pause light mode.svg</file>
+    <file>res/run dark mode.svg</file>
+    <file>res/run light mode.svg</file>
+    <file>res/stop dark mode.svg</file>
+    <file>res/stop light mode.svg</file>
+  </qresource>
+</RCC>
