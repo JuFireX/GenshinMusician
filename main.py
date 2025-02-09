@@ -68,7 +68,7 @@ class MainWindow(QWidget, Ui_Form):
 
     def stop_musician(self):
         if self.condition == -1:
-            self.log_update(f"没有谱面可以停止")
+            self.log_update(f"没有谱面可以结束")
             return
         else:
             self.condition = -1

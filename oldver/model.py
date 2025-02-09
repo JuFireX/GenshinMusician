@@ -10,7 +10,7 @@ import pyautogui
 import cv2
 
 
-template_path = "data\\matchpicture.png"
+template_path = ".\\cache\\template.png"
 target_size = (1854, 632)
 
 gui_condition = -1  # 0: 暂停， 1: 运行， -1: 结束
