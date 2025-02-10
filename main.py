@@ -66,8 +66,9 @@ class MainWindow(QWidget, Ui_Form):
                     self.log_update(f"BPM 必须为整数")
                     return
             # 参数校验完成
-            self.musician = Musician(self)
+            self.musician = Musician(self.path, self.bpm)
             self.musician.logSignal.connect(self.log_update)
+            self.musician.completeSignal.connect(self.complete)
             self.musician.finished.connect(self.musician.deleteLater)
             self.status = 1
             self.musician.start()
@@ -97,6 +98,10 @@ class MainWindow(QWidget, Ui_Form):
             self.status = -1
             self.musician.stop()
             return
+        
+    def complete(self):
+        self.status = -1
+        return
 
     def log_update(self, log):
         self.textEdit_log.append(log)
@@ -104,12 +109,12 @@ class MainWindow(QWidget, Ui_Form):
 
 class Musician(QThread):
     logSignal = Signal(str)
+    completeSignal = Signal()
 
-    def __init__(self, _parent):
+    def __init__(self, path, bpm):
         super().__init__()
-        self._parent = _parent
-        self.path = str(self._parent.path)
-        self.bpm = int(self._parent.bpm)
+        self.path = str(path)
+        self.bpm = int(bpm)
         self.name = self.path.split("/")[-1].split(".")[0]
         self.is_running = False  # 线程运行标志
         self.is_paused = False  # 线程暂停标志
@@ -122,7 +127,7 @@ class Musician(QThread):
         # TODO: 读取谱面文件
         # TODO: 解析谱面文件
         # TODO: 打开原神窗口
-        self.mainloop()  # 主循环
+        self.mainloop()
 
     def pause(self):
         self.is_paused = True
@@ -138,11 +143,16 @@ class Musician(QThread):
         self.wait()  # 等待线程完成
 
     def mainloop(self):
+        cnt=0
         while self.is_running:
-            self.lock.lock()  # 获取锁，防止并发问题
-            # TODO: 音乐播放
+            self.lock.lock()  # 获取锁
             if not self.is_paused:
-                self.logSignal.emit(f"播放中......")
+                self.logSignal.emit(f"播放中{cnt+1}/15......")
+                cnt += 1
+                if cnt > 15:
+                    cnt = 0
+                    self.is_running = False
+                    self.completeSignal.emit()
                 time.sleep(1)
             self.lock.unlock()  # 释放锁
 
