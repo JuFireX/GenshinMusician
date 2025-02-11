@@ -27,7 +27,7 @@
   </property>
   <property name="windowIcon">
    <iconset resource="icons.qrc">
-    <normaloff>:/icons/res/icon light mode.svg</normaloff>:/icons/res/icon light mode.svg</iconset>
+    <normaloff>:/icons/res/icon.png</normaloff>:/icons/res/icon.png</iconset>
   </property>
   <widget class="QLineEdit" name="lineEdit_path">
    <property name="geometry">
@@ -85,7 +85,7 @@
    </property>
    <property name="icon">
     <iconset resource="icons.qrc">
-     <normaloff>:/icons/res/run dark mode.svg</normaloff>:/icons/res/run dark mode.svg</iconset>
+     <normaloff>:/icons/res/start_dark.svg</normaloff>:/icons/res/start_dark.svg</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -117,7 +117,7 @@
    </property>
    <property name="icon">
     <iconset resource="icons.qrc">
-     <normaloff>:/icons/res/pause dark mode.svg</normaloff>:/icons/res/pause dark mode.svg</iconset>
+     <normaloff>:/icons/res/pause_dark.svg</normaloff>:/icons/res/pause_dark.svg</iconset>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_stop">
@@ -137,7 +137,7 @@
    </property>
    <property name="icon">
     <iconset resource="icons.qrc">
-     <normaloff>:/icons/res/stop dark mode.svg</normaloff>:/icons/res/stop dark mode.svg</iconset>
+     <normaloff>:/icons/res/stop_dark.svg</normaloff>:/icons/res/stop_dark.svg</iconset>
    </property>
   </widget>
   <widget class="QLabel" name="label_path">
