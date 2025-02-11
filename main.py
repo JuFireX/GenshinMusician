@@ -3,6 +3,7 @@ from PySide6.QtCore import QThread, Signal, QMutex
 from ui.Ui_musician import Ui_Form
 from utils.activateTargetWindow import activate
 from utils.isPlayMode import isPlayMode
+from utils.loadMusicalScore import loadScore
 import time
 
 
@@ -14,7 +15,7 @@ class MainWindow(QWidget, Ui_Form):
 
         self.path = ""
         self.name = ""
-        self.bpm = 80
+        self.bpm = 60
         self.status = -1
 
         self.bind()
@@ -127,8 +128,8 @@ class Musician(QThread):
             self.is_running = True
             self.mainlogic()
         else:
+            self.completeSignal.emit()
             return
-        
 
     def pause(self):
         self.logSignal.emit(f"播放暂停")
@@ -139,6 +140,7 @@ class Musician(QThread):
             self.logSignal.emit(f"播放继续")
             self.is_paused = False
         else:
+            self.completeSignal.emit()
             return
 
     def stop(self):
@@ -165,19 +167,27 @@ class Musician(QThread):
             return False
 
     def mainlogic(self):
-        # TODO: 读取谱面文件
-        # TODO: 解析谱面文件
-        cnt = 0
+        import pyautogui
+
+        self.score = loadScore(self.path)
+        self.tik = (30 / self.bpm) - 0.18
+        if self.tik < 0.01:
+            self.tik = 0.01
+
+        index = 0
         while self.is_running:
             self.lock.lock()  # 获取锁
             if not self.is_paused:
-                self.logSignal.emit(f"播放中{cnt+1}/15......")
-                cnt += 1
-                if cnt > 15:
-                    cnt = 0
+                chord = self.score[index]
+                self.logSignal.emit(f"{chord}")
+                pyautogui.hotkey(*chord)
+                time.sleep(self.tik)
+                index += 1
+                if index >= len(self.score):
+                    index = 0
                     self.is_running = False
+                    self.logSignal.emit(f"播放结束")
                     self.completeSignal.emit()
-                time.sleep(1)
             self.lock.unlock()  # 释放锁
 
 
