@@ -1,6 +1,6 @@
 from PySide6.QtWidgets import QApplication, QWidget, QFileDialog
 from PySide6.QtCore import QThread, Signal, QMutex
-from ui.Ui_musician_new import Ui_Form
+from ui.Ui_musician import Ui_Form
 import time
 
 
