@@ -1,12 +1,21 @@
-from activeTargetWindow import activateWindow
+from activateTargetWindow import activate
 from isPlayMode import isPlayMode
 import time
 
+
 if __name__ == "__main__":
-    window_title = "任务管理器"
-    activateWindow(window_title)
-    time.sleep(1)
-    templatePath = "./cache/test.png"
-    width = 1906
-    height = 1258
-    print(isPlayMode(templatePath, width, height)[1])
+    window_title = "原神"
+    templatePath = "./cache/template.png"
+    isActive, msg = activate(window_title)
+    if isActive:
+        print(msg)
+        isPlay, msg = isPlayMode(templatePath)
+        if isPlay:
+            print(msg)
+            print(True)
+        else:
+            print(msg)
+            print(False)
+    else:
+        print(msg)
+        print(False)

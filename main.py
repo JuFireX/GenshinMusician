@@ -1,6 +1,8 @@
 from PySide6.QtWidgets import QApplication, QWidget, QFileDialog
 from PySide6.QtCore import QThread, Signal, QMutex
 from ui.Ui_musician import Ui_Form
+from utils.activateTargetWindow import activate
+from utils.isPlayMode import isPlayMode
 import time
 
 
@@ -35,7 +37,6 @@ class MainWindow(QWidget, Ui_Form):
                 self.log_update(f"谱面 {self.name} 已在播放中")
                 return
             else:
-                self.log_update(f"继续播放")
                 self.status = 1
                 self.musician.resume()
                 return
@@ -55,8 +56,8 @@ class MainWindow(QWidget, Ui_Form):
             except UnicodeDecodeError:
                 self.log_update(f"谱面 {self.path} 编码错误")
                 return
-            except:
-                self.log_update(f"未知错误")
+            except Exception as e:
+                self.log_update(f"未知错误 {e}")
                 return
             # 读取 BPM
             if self.lineEdit_bpm.text() != "":
@@ -70,6 +71,7 @@ class MainWindow(QWidget, Ui_Form):
             self.musician.logSignal.connect(self.log_update)
             self.musician.completeSignal.connect(self.complete)
             self.musician.finished.connect(self.musician.deleteLater)
+
             self.status = 1
             self.musician.start()
             return
@@ -80,12 +82,10 @@ class MainWindow(QWidget, Ui_Form):
             return
         else:
             if self.status == 0:
-                self.log_update(f"继续播放")
                 self.status = 1
                 self.musician.resume()
                 return
             if self.status == 1:
-                self.log_update(f"暂停播放")
                 self.status = 0
                 self.musician.pause()
                 return
@@ -98,7 +98,7 @@ class MainWindow(QWidget, Ui_Form):
             self.status = -1
             self.musician.stop()
             return
-        
+
     def complete(self):
         self.status = -1
         return
@@ -121,29 +121,53 @@ class Musician(QThread):
         self.lock = QMutex()  # 线程同步锁
 
     def run(self):
-        self.logSignal.emit(f"开始播放")
-        self.logSignal.emit(f"谱面 {self.name} 速度 {self.bpm}")
-        self.is_running = True
-        # TODO: 读取谱面文件
-        # TODO: 解析谱面文件
-        # TODO: 打开原神窗口
-        self.mainloop()
+        if self.tryActivateGenshin():
+            self.logSignal.emit(f"播放开始")
+            self.logSignal.emit(f"谱面 {self.name} 速度 {self.bpm}")
+            self.is_running = True
+            self.mainlogic()
+        else:
+            return
+        
 
     def pause(self):
+        self.logSignal.emit(f"播放暂停")
         self.is_paused = True
 
     def resume(self):
-        # TODO: 恢复音乐播放
-        self.is_paused = False
+        if self.tryActivateGenshin():
+            self.logSignal.emit(f"播放继续")
+            self.is_paused = False
+        else:
+            return
 
     def stop(self):
-        self.logSignal.emit(f"结束播放")
+        self.logSignal.emit(f"播放结束")
         self.is_running = False
-        self.quit()  # 退出线程事件循环
-        self.wait()  # 等待线程完成
+        self.quit()
+        self.wait()
 
-    def mainloop(self):
-        cnt=0
+    def tryActivateGenshin(self):
+        Genshin = "原神"
+        template = "cache/template.png"
+        isActive, msg = activate(Genshin)
+        if isActive:
+            self.logSignal.emit(msg)
+            isPlay, msg = isPlayMode(template)
+            if isPlay:
+                self.logSignal.emit(msg)
+                return True
+            else:
+                self.logSignal.emit(msg)
+                return False
+        else:
+            self.logSignal.emit(msg)
+            return False
+
+    def mainlogic(self):
+        # TODO: 读取谱面文件
+        # TODO: 解析谱面文件
+        cnt = 0
         while self.is_running:
             self.lock.lock()  # 获取锁
             if not self.is_paused:
