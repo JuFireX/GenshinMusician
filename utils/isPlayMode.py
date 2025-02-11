@@ -22,7 +22,7 @@ def isPlayMode(templatePath, width, height):
 
 
 if __name__ == "__main__":
-    templatePath ="F:\\project\\genshenmusician2\\QQ20241225-123538.png"
+    templatePath ="./cache/template.png"
     width = 1854
     height = 632
     print(isPlayMode(templatePath, width, height)[1])
