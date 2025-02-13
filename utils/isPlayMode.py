@@ -19,7 +19,7 @@ def isPlayMode(templatePath):
     # print(templateSize)
     # print(min_val, max_val, min_loc, max_loc)
 
-    if min_val > 0.5:    # 阈值设定，大于0.5则认为匹配成功
+    if min_val > 1:    # 暂时不使用该功能，因为匹配的结果不准确
         return (False, f"当前未处于演奏界面")
     else:
         return (True, f"定位模板匹配成功")

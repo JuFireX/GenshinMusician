@@ -155,13 +155,15 @@ class Musician(QThread):
         isActive, msg = activate(Genshin)
         if isActive:
             self.logSignal.emit(msg)
-            isPlay, msg = isPlayMode(template)
-            if isPlay:
-                self.logSignal.emit(msg)
-                return True
-            else:
-                self.logSignal.emit(msg)
-                return False
+            # isPlay, msg = isPlayMode(template)
+            # if isPlay:
+                # self.logSignal.emit(msg)
+                # return True
+            # else:
+                # self.logSignal.emit(msg)
+                # return False
+            self.logSignal.emit(f"请确保正在使用演奏工具")
+            return True
         else:
             self.logSignal.emit(msg)
             return False
