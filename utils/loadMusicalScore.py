@@ -6,7 +6,8 @@ def loadScore(filename):
     with open(filename, "r", encoding="utf-8") as file:
         lines = file.readlines()
         for line in lines:
-            line = line.strip()
+            line = re.sub(r"（", "(", line)
+            line = re.sub(r"）", ")", line)
             line = re.sub(r"/", "", line)
             context += line
     i = 0
