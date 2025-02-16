@@ -2,7 +2,6 @@ from PySide6.QtWidgets import QApplication, QWidget, QFileDialog
 from PySide6.QtCore import QThread, Signal, QMutex
 from ui.Ui_musician import Ui_Form
 from utils.activateTargetWindow import activate
-# from utils.isPlayMode import isPlayMode
 from utils.loadMusicalScore import loadScore
 import time
 
@@ -151,17 +150,9 @@ class Musician(QThread):
 
     def tryActivateGenshin(self):
         Genshin = "原神"
-        # template = "cache/template.png"
         isActive, msg = activate(Genshin)
         if isActive:
             self.logSignal.emit(msg)
-            # isPlay, msg = isPlayMode(template)
-            # if isPlay:
-                # self.logSignal.emit(msg)
-                # return True
-            # else:
-                # self.logSignal.emit(msg)
-                # return False
             self.logSignal.emit(f"请确保正在使用演奏工具")
             return True
         else:

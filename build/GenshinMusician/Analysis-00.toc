@@ -32,6 +32,14 @@
    'F:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
    'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth_setuptools',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py',
+   'PYSOURCE'),
   ('pyi_rth_pyside6',
    'F:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyside6.py',
@@ -366,122 +374,40 @@
    'f:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PyInstaller\\fake-modules\\_pyi_rth_utils\\__init__.py',
    'PYMODULE'),
-  ('subprocess',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\subprocess.py',
+  ('_distutils_hack',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\_distutils_hack\\__init__.py',
    'PYMODULE'),
-  ('signal',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\signal.py',
+  ('setuptools',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\__init__.py',
    'PYMODULE'),
-  ('multiprocessing.spawn',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\spawn.py',
+  ('setuptools.msvc',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\msvc.py',
    'PYMODULE'),
-  ('multiprocessing.resource_tracker',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\resource_tracker.py',
+  ('typing_extensions',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\typing_extensions.py',
    'PYMODULE'),
-  ('multiprocessing.util',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\util.py',
+  ('setuptools._vendor.more_itertools',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\__init__.py',
    'PYMODULE'),
-  ('multiprocessing.forkserver',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\forkserver.py',
+  ('setuptools._vendor', '-', 'PYMODULE'),
+  ('setuptools._vendor.more_itertools.recipes',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\recipes.py',
    'PYMODULE'),
-  ('multiprocessing.connection',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\connection.py',
+  ('setuptools._vendor.more_itertools.more',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\more.py',
    'PYMODULE'),
-  ('multiprocessing.resource_sharer',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\resource_sharer.py',
+  ('queue',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\queue.py',
    'PYMODULE'),
-  ('xmlrpc.client',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xmlrpc\\client.py',
-   'PYMODULE'),
-  ('xmlrpc',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xmlrpc\\__init__.py',
-   'PYMODULE'),
-  ('xml.parsers.expat',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\parsers\\expat.py',
-   'PYMODULE'),
-  ('xml.parsers',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\parsers\\__init__.py',
-   'PYMODULE'),
-  ('xml',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\__init__.py',
-   'PYMODULE'),
-  ('xml.sax.expatreader',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\sax\\expatreader.py',
-   'PYMODULE'),
-  ('xml.sax.saxutils',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\sax\\saxutils.py',
-   'PYMODULE'),
-  ('urllib.request',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\request.py',
-   'PYMODULE'),
-  ('getpass',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\getpass.py',
-   'PYMODULE'),
-  ('nturl2path',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\nturl2path.py',
-   'PYMODULE'),
-  ('ftplib',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ftplib.py',
-   'PYMODULE'),
-  ('netrc',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\netrc.py',
-   'PYMODULE'),
-  ('mimetypes',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\mimetypes.py',
-   'PYMODULE'),
-  ('http.cookiejar',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\cookiejar.py',
-   'PYMODULE'),
-  ('http',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\__init__.py',
-   'PYMODULE'),
-  ('ssl',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ssl.py',
-   'PYMODULE'),
-  ('urllib.response',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\response.py',
-   'PYMODULE'),
-  ('urllib.error',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\error.py',
-   'PYMODULE'),
-  ('xml.sax',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\sax\\__init__.py',
-   'PYMODULE'),
-  ('xml.sax.handler',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\sax\\handler.py',
-   'PYMODULE'),
-  ('xml.sax._exceptions',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\sax\\_exceptions.py',
-   'PYMODULE'),
-  ('xml.sax.xmlreader',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\sax\\xmlreader.py',
-   'PYMODULE'),
-  ('http.client',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\client.py',
-   'PYMODULE'),
-  ('hmac',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\hmac.py',
-   'PYMODULE'),
-  ('multiprocessing.context',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\context.py',
-   'PYMODULE'),
-  ('multiprocessing.popen_spawn_win32',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\popen_spawn_win32.py',
-   'PYMODULE'),
-  ('multiprocessing.popen_forkserver',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\popen_forkserver.py',
-   'PYMODULE'),
-  ('multiprocessing.popen_spawn_posix',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\popen_spawn_posix.py',
-   'PYMODULE'),
-  ('multiprocessing.popen_fork',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\popen_fork.py',
-   'PYMODULE'),
-  ('multiprocessing.sharedctypes',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\sharedctypes.py',
-   'PYMODULE'),
-  ('multiprocessing.heap',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\heap.py',
+  ('platform',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\platform.py',
    'PYMODULE'),
   ('ctypes',
    'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ctypes\\__init__.py',
@@ -510,103 +436,99 @@
   ('ctypes._endian',
    'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ctypes\\_endian.py',
    'PYMODULE'),
-  ('multiprocessing.pool',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\pool.py',
+  ('_ios_support',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_ios_support.py',
    'PYMODULE'),
-  ('multiprocessing.dummy',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\dummy\\__init__.py',
+  ('subprocess',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\subprocess.py',
    'PYMODULE'),
-  ('multiprocessing.dummy.connection',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\dummy\\connection.py',
+  ('signal',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\signal.py',
    'PYMODULE'),
-  ('queue',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\queue.py',
-   'PYMODULE'),
-  ('multiprocessing.queues',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\queues.py',
-   'PYMODULE'),
-  ('multiprocessing.synchronize',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\synchronize.py',
-   'PYMODULE'),
-  ('multiprocessing.managers',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\managers.py',
-   'PYMODULE'),
-  ('multiprocessing.shared_memory',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\shared_memory.py',
-   'PYMODULE'),
-  ('secrets',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\secrets.py',
-   'PYMODULE'),
-  ('multiprocessing.reduction',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\reduction.py',
-   'PYMODULE'),
-  ('multiprocessing.process',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\process.py',
-   'PYMODULE'),
-  ('runpy',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\runpy.py',
-   'PYMODULE'),
-  ('pkgutil',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pkgutil.py',
-   'PYMODULE'),
-  ('zipimport',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipimport.py',
-   'PYMODULE'),
-  ('multiprocessing',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\__init__.py',
-   'PYMODULE'),
-  ('tracemalloc',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tracemalloc.py',
-   'PYMODULE'),
-  ('_colorize',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_colorize.py',
-   'PYMODULE'),
-  ('_py_abc',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_py_abc.py',
-   'PYMODULE'),
-  ('stringprep',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\stringprep.py',
-   'PYMODULE'),
-  ('pyautogui',
+  ('setuptools._distutils.command.build_ext',
    'f:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\pyautogui\\__init__.py',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\build_ext.py',
    'PYMODULE'),
-  ('pyautogui._pyautogui_x11',
+  ('setuptools._distutils.command',
    'f:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\pyautogui\\_pyautogui_x11.py',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\__init__.py',
    'PYMODULE'),
-  ('pyautogui._pyautogui_win',
+  ('setuptools._distutils',
    'f:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\pyautogui\\_pyautogui_win.py',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\__init__.py',
    'PYMODULE'),
-  ('pyautogui._pyautogui_osx',
+  ('setuptools._distutils.version',
    'f:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\pyautogui\\_pyautogui_osx.py',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\version.py',
    'PYMODULE'),
-  ('pygetwindow',
+  ('setuptools._distutils.archive_util',
    'f:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\pygetwindow\\__init__.py',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\archive_util.py',
    'PYMODULE'),
-  ('pygetwindow._pygetwindow_win',
+  ('setuptools._distutils.spawn',
    'f:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\pygetwindow\\_pygetwindow_win.py',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\spawn.py',
    'PYMODULE'),
-  ('pygetwindow._pygetwindow_macos',
+  ('setuptools._distutils.debug',
    'f:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\pygetwindow\\_pygetwindow_macos.py',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\debug.py',
    'PYMODULE'),
-  ('pyrect',
+  ('setuptools._distutils.dir_util',
    'f:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\pyrect\\__init__.py',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\dir_util.py',
    'PYMODULE'),
-  ('doctest',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\doctest.py',
+  ('setuptools._distutils.file_util',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\file_util.py',
+   'PYMODULE'),
+  ('setuptools._distutils._msvccompiler',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_msvccompiler.py',
+   'PYMODULE'),
+  ('unittest.mock',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\mock.py',
    'PYMODULE'),
   ('unittest',
    'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\__init__.py',
    'PYMODULE'),
   ('unittest.async_case',
    'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\async_case.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\main.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('unittest.suite',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('unittest.case',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('unittest._log',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\_log.py',
+   'PYMODULE'),
+  ('difflib',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\difflib.py',
+   'PYMODULE'),
+  ('unittest.result',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\result.py',
+   'PYMODULE'),
+  ('unittest.util',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pkgutil.py',
+   'PYMODULE'),
+  ('zipimport',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipimport.py',
    'PYMODULE'),
   ('asyncio',
    'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\__init__.py',
@@ -625,6 +547,9 @@
    'PYMODULE'),
   ('asyncio.selector_events',
    'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\selector_events.py',
+   'PYMODULE'),
+  ('ssl',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ssl.py',
    'PYMODULE'),
   ('asyncio.proactor_events',
    'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\proactor_events.py',
@@ -649,21 +574,6 @@
    'PYMODULE'),
   ('asyncio.base_events',
    'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\base_events.py',
-   'PYMODULE'),
-  ('concurrent.futures',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\__init__.py',
-   'PYMODULE'),
-  ('concurrent.futures.thread',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py',
-   'PYMODULE'),
-  ('concurrent.futures.process',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\process.py',
-   'PYMODULE'),
-  ('concurrent.futures._base',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py',
-   'PYMODULE'),
-  ('concurrent',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\__init__.py',
    'PYMODULE'),
   ('asyncio.trsock',
    'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\trsock.py',
@@ -719,35 +629,305 @@
   ('asyncio.constants',
    'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\constants.py',
    'PYMODULE'),
-  ('unittest.signals',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\signals.py',
+  ('concurrent.futures',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\__init__.py',
    'PYMODULE'),
-  ('unittest.main',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\main.py',
+  ('concurrent.futures.thread',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py',
    'PYMODULE'),
-  ('unittest.runner',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\runner.py',
+  ('concurrent.futures.process',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\process.py',
    'PYMODULE'),
-  ('unittest.loader',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\loader.py',
+  ('multiprocessing.synchronize',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\synchronize.py',
    'PYMODULE'),
-  ('unittest.suite',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\suite.py',
+  ('multiprocessing.heap',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\heap.py',
    'PYMODULE'),
-  ('unittest.case',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\case.py',
+  ('multiprocessing.resource_tracker',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\resource_tracker.py',
    'PYMODULE'),
-  ('unittest._log',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\_log.py',
+  ('multiprocessing.spawn',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\spawn.py',
    'PYMODULE'),
-  ('unittest.result',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\result.py',
+  ('runpy',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\runpy.py',
    'PYMODULE'),
-  ('unittest.util',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\util.py',
+  ('multiprocessing.util',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\util.py',
    'PYMODULE'),
-  ('pdb',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pdb.py',
+  ('multiprocessing.forkserver',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\shared_memory.py',
+   'PYMODULE'),
+  ('secrets',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\secrets.py',
+   'PYMODULE'),
+  ('hmac',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\hmac.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('getpass',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\getpass.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\nturl2path.py',
+   'PYMODULE'),
+  ('ftplib',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ftplib.py',
+   'PYMODULE'),
+  ('netrc',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\netrc.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\mimetypes.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('http',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('http.client',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\client.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py',
+   'PYMODULE'),
+  ('concurrent',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._distutils.ccompiler',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\ccompiler.py',
+   'PYMODULE'),
+  ('setuptools._distutils.fancy_getopt',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\fancy_getopt.py',
+   'PYMODULE'),
+  ('setuptools._distutils.util',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\util.py',
+   'PYMODULE'),
+  ('jaraco', '-', 'PYMODULE'),
+  ('setuptools._vendor.jaraco.functools',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\functools\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.jaraco', '-', 'PYMODULE'),
+  ('sysconfig',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\sysconfig\\__init__.py',
+   'PYMODULE'),
+  ('_aix_support',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_aix_support.py',
+   'PYMODULE'),
+  ('setuptools._distutils.sysconfig',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\sysconfig.py',
+   'PYMODULE'),
+  ('setuptools._distutils.text_file',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\text_file.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compat.py39',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compat\\py39.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compat',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._distutils.extension',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\extension.py',
+   'PYMODULE'),
+  ('setuptools._distutils._modified',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_modified.py',
+   'PYMODULE'),
+  ('site',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site.py',
+   'PYMODULE'),
+  ('_pyrepl.main',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pyrepl\\main.py',
+   'PYMODULE'),
+  ('_pyrepl',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pyrepl\\__init__.py',
+   'PYMODULE'),
+  ('_pyrepl.curses',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pyrepl\\curses.py',
+   'PYMODULE'),
+  ('curses',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\curses\\__init__.py',
+   'PYMODULE'),
+  ('curses.has_key',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\curses\\has_key.py',
+   'PYMODULE'),
+  ('_pyrepl._minimal_curses',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pyrepl\\_minimal_curses.py',
+   'PYMODULE'),
+  ('_pyrepl.input',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pyrepl\\input.py',
+   'PYMODULE'),
+  ('_pyrepl.keymap',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pyrepl\\keymap.py',
+   'PYMODULE'),
+  ('_pyrepl.types',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pyrepl\\types.py',
+   'PYMODULE'),
+  ('_pyrepl.commands',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pyrepl\\commands.py',
+   'PYMODULE'),
+  ('_pyrepl.pager',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pyrepl\\pager.py',
+   'PYMODULE'),
+  ('tty',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tty.py',
+   'PYMODULE'),
+  ('_pyrepl.historical_reader',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pyrepl\\historical_reader.py',
+   'PYMODULE'),
+  ('_pyrepl.reader',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pyrepl\\reader.py',
+   'PYMODULE'),
+  ('_pyrepl._threading_handler',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pyrepl\\_threading_handler.py',
+   'PYMODULE'),
+  ('_pyrepl.utils',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pyrepl\\utils.py',
+   'PYMODULE'),
+  ('_colorize',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_colorize.py',
+   'PYMODULE'),
+  ('_pyrepl.console',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pyrepl\\console.py',
+   'PYMODULE'),
+  ('code',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\code.py',
+   'PYMODULE'),
+  ('codeop',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\codeop.py',
+   'PYMODULE'),
+  ('_pyrepl.trace',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pyrepl\\trace.py',
+   'PYMODULE'),
+  ('_pyrepl.simple_interact',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pyrepl\\simple_interact.py',
+   'PYMODULE'),
+  ('_pyrepl.windows_console',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pyrepl\\windows_console.py',
+   'PYMODULE'),
+  ('_pyrepl.unix_console',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pyrepl\\unix_console.py',
+   'PYMODULE'),
+  ('_pyrepl.unix_eventqueue',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pyrepl\\unix_eventqueue.py',
+   'PYMODULE'),
+  ('_pyrepl.fancy_termios',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pyrepl\\fancy_termios.py',
+   'PYMODULE'),
+  ('_pyrepl.readline',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pyrepl\\readline.py',
+   'PYMODULE'),
+  ('_pyrepl.completing_reader',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pyrepl\\completing_reader.py',
+   'PYMODULE'),
+  ('rlcompleter',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\rlcompleter.py',
+   'PYMODULE'),
+  ('_sitebuiltins',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_sitebuiltins.py',
    'PYMODULE'),
   ('pydoc',
    'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pydoc.py',
@@ -755,8 +935,8 @@
   ('webbrowser',
    'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\webbrowser.py',
    'PYMODULE'),
-  ('_ios_support',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_ios_support.py',
+  ('shlex',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\shlex.py',
    'PYMODULE'),
   ('http.server',
    'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\server.py',
@@ -776,32 +956,666 @@
   ('pydoc_data',
    'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pydoc_data\\__init__.py',
    'PYMODULE'),
-  ('_pyrepl.pager',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pyrepl\\pager.py',
+  ('setuptools._distutils._log',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_log.py',
    'PYMODULE'),
-  ('_pyrepl',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pyrepl\\__init__.py',
+  ('setuptools._distutils.errors',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\errors.py',
    'PYMODULE'),
-  ('tty',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tty.py',
+  ('setuptools._distutils.core',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\core.py',
    'PYMODULE'),
-  ('sysconfig',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\sysconfig\\__init__.py',
+  ('setuptools._distutils.dist',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\dist.py',
    'PYMODULE'),
-  ('_aix_support',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_aix_support.py',
+  ('setuptools._distutils.versionpredicate',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\versionpredicate.py',
    'PYMODULE'),
-  ('shlex',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\shlex.py',
+  ('configparser',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\configparser.py',
    'PYMODULE'),
-  ('rlcompleter',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\rlcompleter.py',
+  ('packaging.utils',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\packaging\\utils.py',
    'PYMODULE'),
-  ('codeop',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\codeop.py',
+  ('packaging',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\packaging\\__init__.py',
    'PYMODULE'),
-  ('code',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\code.py',
+  ('pkg_resources',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\pkg_resources\\__init__.py',
+   'PYMODULE'),
+  ('packaging.metadata',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\packaging\\metadata.py',
+   'PYMODULE'),
+  ('packaging.licenses._spdx',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\packaging\\licenses\\_spdx.py',
+   'PYMODULE'),
+  ('packaging.licenses',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\packaging\\licenses\\__init__.py',
+   'PYMODULE'),
+  ('packaging._tokenizer',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\packaging\\_tokenizer.py',
+   'PYMODULE'),
+  ('packaging._structures',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('packaging._parser',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\packaging\\_parser.py',
+   'PYMODULE'),
+  ('packaging._elffile',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\packaging\\_elffile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.platformdirs',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.platformdirs.android',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs\\android.py',
+   'PYMODULE'),
+  ('setuptools._vendor.platformdirs.unix',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs\\unix.py',
+   'PYMODULE'),
+  ('setuptools._vendor.platformdirs.macos',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs\\macos.py',
+   'PYMODULE'),
+  ('setuptools._vendor.platformdirs.windows',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs\\windows.py',
+   'PYMODULE'),
+  ('setuptools._vendor.platformdirs.version',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs\\version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.platformdirs.api',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs\\api.py',
+   'PYMODULE'),
+  ('setuptools._vendor.jaraco.text',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.jaraco.context',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\context.py',
+   'PYMODULE'),
+  ('setuptools._vendor.backports.tarfile',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\tarfile\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.backports',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.backports.tarfile.compat.py38',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\tarfile\\compat\\py38.py',
+   'PYMODULE'),
+  ('setuptools._vendor.backports.tarfile.compat',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\tarfile\\compat\\__init__.py',
+   'PYMODULE'),
+  ('backports',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\__init__.py',
+   'PYMODULE'),
+  ('packaging.specifiers',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('packaging.requirements',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('packaging.markers',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\packaging\\markers.py',
+   'PYMODULE'),
+  ('plistlib',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\plistlib.py',
+   'PYMODULE'),
+  ('packaging._musllinux',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('packaging._manylinux',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('packaging.version',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\packaging\\version.py',
+   'PYMODULE'),
+  ('packaging.tags',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\packaging\\tags.py',
+   'PYMODULE'),
+  ('setuptools._distutils.cmd',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\cmd.py',
+   'PYMODULE'),
+  ('setuptools.warnings',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\warnings.py',
+   'PYMODULE'),
+  ('setuptools.version',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\version.py',
+   'PYMODULE'),
+  ('setuptools._importlib',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_importlib.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._adapters',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_adapters.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._text',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_text.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._itertools',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_itertools.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._functools',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_functools.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._compat',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_compat.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._collections',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_collections.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata.compat.py311',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\compat\\py311.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata.compat.py39',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\compat\\py39.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata.compat',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._meta',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_meta.py',
+   'PYMODULE'),
+  ('setuptools._vendor.zipp',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\zipp\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.zipp.glob',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\zipp\\glob.py',
+   'PYMODULE'),
+  ('setuptools._vendor.zipp.compat.py310',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\zipp\\compat\\py310.py',
+   'PYMODULE'),
+  ('setuptools._vendor.zipp.compat',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\zipp\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.extension',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\extension.py',
+   'PYMODULE'),
+  ('setuptools._path',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_path.py',
+   'PYMODULE'),
+  ('setuptools.dist',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\dist.py',
+   'PYMODULE'),
+  ('setuptools.command.bdist_wheel',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\command\\bdist_wheel.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.macosx_libfile',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\macosx_libfile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel._setuptools_logging',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\_setuptools_logging.py',
+   'PYMODULE'),
+  ('setuptools.command.egg_info',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\command\\egg_info.py',
+   'PYMODULE'),
+  ('setuptools._distutils.filelist',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\filelist.py',
+   'PYMODULE'),
+  ('setuptools.command._requirestxt',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\command\\_requirestxt.py',
+   'PYMODULE'),
+  ('setuptools.glob',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\glob.py',
+   'PYMODULE'),
+  ('setuptools.command.setopt',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\command\\setopt.py',
+   'PYMODULE'),
+  ('setuptools.command.sdist',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\command\\sdist.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.sdist',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\sdist.py',
+   'PYMODULE'),
+  ('setuptools.command.build',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\command\\build.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.build',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\build.py',
+   'PYMODULE'),
+  ('setuptools.command.bdist_egg',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\command\\bdist_egg.py',
+   'PYMODULE'),
+  ('setuptools.unicode_utils',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\unicode_utils.py',
+   'PYMODULE'),
+  ('setuptools.compat.py39',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\compat\\py39.py',
+   'PYMODULE'),
+  ('setuptools.compat',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.compat.py311',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\compat\\py311.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.wheelfile',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\wheelfile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.util',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\util.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\cli\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli.tags',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\cli\\tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli.convert',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\cli\\convert.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.bdist_wheel',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\bdist_wheel.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.version',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._structures',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.tags',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._musllinux',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._elffile',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_elffile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._manylinux',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.metadata',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\metadata.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.requirements',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.utils',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\utils.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.specifiers',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.markers',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\markers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._tokenizer',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_tokenizer.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._parser',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_parser.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli.pack',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\cli\\pack.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli.unpack',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\cli\\unpack.py',
+   'PYMODULE'),
+  ('setuptools.installer',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\installer.py',
+   'PYMODULE'),
+  ('setuptools.wheel',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\wheel.py',
+   'PYMODULE'),
+  ('setuptools.archive_util',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\archive_util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.log',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\log.py',
+   'PYMODULE'),
+  ('setuptools.config.setupcfg',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\config\\setupcfg.py',
+   'PYMODULE'),
+  ('setuptools.config.expand',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\config\\expand.py',
+   'PYMODULE'),
+  ('setuptools.errors',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\errors.py',
+   'PYMODULE'),
+  ('setuptools.config.pyprojecttoml',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\config\\pyprojecttoml.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.fastjsonschema_validations',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\fastjsonschema_validations.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.fastjsonschema_exceptions',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\fastjsonschema_exceptions.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.extra_validations',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\extra_validations.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.error_reporting',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\error_reporting.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.formats',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\formats.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.requirements',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.utils',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.version',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._structures',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.tags',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._musllinux',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._elffile',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_elffile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._manylinux',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.specifiers',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.markers',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._tokenizer',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_tokenizer.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._parser',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_parser.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.compat.py310',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\compat\\py310.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli._parser',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\_parser.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli._types',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\_types.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli._re',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\_re.py',
+   'PYMODULE'),
+  ('tomllib',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tomllib\\__init__.py',
+   'PYMODULE'),
+  ('tomllib._parser',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tomllib\\_parser.py',
+   'PYMODULE'),
+  ('tomllib._types',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tomllib\\_types.py',
+   'PYMODULE'),
+  ('tomllib._re',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tomllib\\_re.py',
+   'PYMODULE'),
+  ('setuptools.config._apply_pyprojecttoml',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\config\\_apply_pyprojecttoml.py',
+   'PYMODULE'),
+  ('setuptools.config',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\config\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._static',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_static.py',
+   'PYMODULE'),
+  ('setuptools._shutil',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_shutil.py',
+   'PYMODULE'),
+  ('setuptools.windows_support',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\windows_support.py',
+   'PYMODULE'),
+  ('setuptools.command',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\command\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.bdist',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\bdist.py',
+   'PYMODULE'),
+  ('setuptools._entry_points',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_entry_points.py',
+   'PYMODULE'),
+  ('setuptools._itertools',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_itertools.py',
+   'PYMODULE'),
+  ('setuptools.discovery',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\discovery.py',
+   'PYMODULE'),
+  ('setuptools.depends',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\depends.py',
+   'PYMODULE'),
+  ('setuptools._imp',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_imp.py',
+   'PYMODULE'),
+  ('setuptools.logging',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\logging.py',
+   'PYMODULE'),
+  ('setuptools.monkey',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\monkey.py',
+   'PYMODULE'),
+  ('setuptools._core_metadata',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_core_metadata.py',
+   'PYMODULE'),
+  ('setuptools._reqs',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_reqs.py',
+   'PYMODULE'),
+  ('setuptools._normalization',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_normalization.py',
+   'PYMODULE'),
+  ('_distutils_hack.override',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\_distutils_hack\\override.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\stringprep.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_py_abc.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('pyautogui',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\pyautogui\\__init__.py',
+   'PYMODULE'),
+  ('pyautogui._pyautogui_x11',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\pyautogui\\_pyautogui_x11.py',
+   'PYMODULE'),
+  ('pyautogui._pyautogui_win',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\pyautogui\\_pyautogui_win.py',
+   'PYMODULE'),
+  ('pyautogui._pyautogui_osx',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\pyautogui\\_pyautogui_osx.py',
+   'PYMODULE'),
+  ('pygetwindow',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\pygetwindow\\__init__.py',
+   'PYMODULE'),
+  ('pygetwindow._pygetwindow_win',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\pygetwindow\\_pygetwindow_win.py',
+   'PYMODULE'),
+  ('pygetwindow._pygetwindow_macos',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\pygetwindow\\_pygetwindow_macos.py',
+   'PYMODULE'),
+  ('pyrect',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\pyrect\\__init__.py',
+   'PYMODULE'),
+  ('doctest',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\doctest.py',
+   'PYMODULE'),
+  ('pdb',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pdb.py',
    'PYMODULE'),
   ('bdb',
    'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\bdb.py',
@@ -809,20 +1623,56 @@
   ('cmd',
    'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\cmd.py',
    'PYMODULE'),
-  ('difflib',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\difflib.py',
-   'PYMODULE'),
   ('mouseinfo',
    'f:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\mouseinfo\\__init__.py',
    'PYMODULE'),
-  ('pyperclip',
+  ('PIL.ImageGrab',
    'f:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\pyperclip\\__init__.py',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\ImageGrab.py',
    'PYMODULE'),
-  ('pyscreeze',
+  ('PIL.BmpImagePlugin',
    'f:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\pyscreeze\\__init__.py',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\BmpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL._binary',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\_binary.py',
+   'PYMODULE'),
+  ('PIL.ImagePalette',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\ImagePalette.py',
+   'PYMODULE'),
+  ('PIL.PaletteFile',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\PaletteFile.py',
+   'PYMODULE'),
+  ('PIL.ImageColor',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\ImageColor.py',
+   'PYMODULE'),
+  ('colorsys',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\colorsys.py',
+   'PYMODULE'),
+  ('PIL.GimpPaletteFile',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\GimpPaletteFile.py',
+   'PYMODULE'),
+  ('PIL.GimpGradientFile',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\GimpGradientFile.py',
+   'PYMODULE'),
+  ('PIL.ImageFile',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\ImageFile.py',
+   'PYMODULE'),
+  ('PIL._typing',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\_typing.py',
+   'PYMODULE'),
+  ('numpy.typing',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\typing\\__init__.py',
    'PYMODULE'),
   ('numpy',
    'f:\\Code '
@@ -831,10 +1681,6 @@
   ('numpy._core._dtype_ctypes',
    'f:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\_core\\_dtype_ctypes.py',
-   'PYMODULE'),
-  ('numpy._pytesttester',
-   'f:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\_pytesttester.py',
    'PYMODULE'),
   ('numpy.strings',
    'f:\\Code '
@@ -939,54 +1785,6 @@
   ('numpy._core.records',
    'f:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\_core\\records.py',
-   'PYMODULE'),
-  ('numpy.typing',
-   'f:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\typing\\__init__.py',
-   'PYMODULE'),
-  ('numpy._typing._add_docstring',
-   'f:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\_typing\\_add_docstring.py',
-   'PYMODULE'),
-  ('numpy._typing._array_like',
-   'f:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\_typing\\_array_like.py',
-   'PYMODULE'),
-  ('numpy._typing._shape',
-   'f:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\_typing\\_shape.py',
-   'PYMODULE'),
-  ('numpy._typing._nested_sequence',
-   'f:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\_typing\\_nested_sequence.py',
-   'PYMODULE'),
-  ('numpy._typing._nbit_base',
-   'f:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\_typing\\_nbit_base.py',
-   'PYMODULE'),
-  ('numpy._typing',
-   'f:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\_typing\\__init__.py',
-   'PYMODULE'),
-  ('numpy._typing._ufunc',
-   'f:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\_typing\\_ufunc.py',
-   'PYMODULE'),
-  ('numpy._typing._dtype_like',
-   'f:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\_typing\\_dtype_like.py',
-   'PYMODULE'),
-  ('numpy._typing._scalars',
-   'f:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\_typing\\_scalars.py',
-   'PYMODULE'),
-  ('numpy._typing._char_codes',
-   'f:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\_typing\\_char_codes.py',
-   'PYMODULE'),
-  ('numpy._typing._nbit',
-   'f:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\_typing\\_nbit.py',
    'PYMODULE'),
   ('numpy.f2py',
    'f:\\Code '
@@ -1388,6 +2186,357 @@
    'f:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\_globals.py',
    'PYMODULE'),
+  ('numpy._pytesttester',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\_pytesttester.py',
+   'PYMODULE'),
+  ('numpy._typing._add_docstring',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\_typing\\_add_docstring.py',
+   'PYMODULE'),
+  ('numpy._typing._array_like',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\_typing\\_array_like.py',
+   'PYMODULE'),
+  ('numpy._typing._shape',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\_typing\\_shape.py',
+   'PYMODULE'),
+  ('numpy._typing._nested_sequence',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\_typing\\_nested_sequence.py',
+   'PYMODULE'),
+  ('numpy._typing._nbit_base',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\_typing\\_nbit_base.py',
+   'PYMODULE'),
+  ('numpy._typing',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\_typing\\__init__.py',
+   'PYMODULE'),
+  ('numpy._typing._ufunc',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\_typing\\_ufunc.py',
+   'PYMODULE'),
+  ('numpy._typing._dtype_like',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\_typing\\_dtype_like.py',
+   'PYMODULE'),
+  ('numpy._typing._scalars',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\_typing\\_scalars.py',
+   'PYMODULE'),
+  ('numpy._typing._char_codes',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\_typing\\_char_codes.py',
+   'PYMODULE'),
+  ('numpy._typing._nbit',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\_typing\\_nbit.py',
+   'PYMODULE'),
+  ('PIL._util',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\_util.py',
+   'PYMODULE'),
+  ('PIL._deprecate',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\_deprecate.py',
+   'PYMODULE'),
+  ('PIL.PngImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\PngImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageSequence',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\ImageSequence.py',
+   'PYMODULE'),
+  ('PIL.ImageChops',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\ImageChops.py',
+   'PYMODULE'),
+  ('PIL.Image',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\Image.py',
+   'PYMODULE'),
+  ('PIL.XpmImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\XpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XbmImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\XbmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XVThumbImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WmfImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\WmfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WebPImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\WebPImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TgaImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\TgaImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SunImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\SunImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SpiderImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\SpiderImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageTk',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\ImageTk.py',
+   'PYMODULE'),
+  ('PIL.SgiImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\SgiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.QoiImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\QoiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PsdImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\PsdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PixarImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\PixarImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PdfImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\PdfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.features',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\features.py',
+   'PYMODULE'),
+  ('PIL.PdfParser',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\PdfParser.py',
+   'PYMODULE'),
+  ('PIL.PcxImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\PcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcdImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\PcdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PalmImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\PalmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MspImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\MspImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpoImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\MpoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpegImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\MpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MicImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\MicImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.McIdasImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\McIdasImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Jpeg2KImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IptcImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\IptcImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImtImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\ImtImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\ImImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcoImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\IcoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcnsImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\IcnsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Hdf5StubImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GribStubImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\GribStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GbrImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\GbrImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FtexImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\FtexImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FpxImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\FpxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FliImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\FliImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FitsImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\FitsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.EpsImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\EpsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DdsImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\DdsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DcxImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\DcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.CurImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\CurImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BufrStubImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\BufrStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BlpImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\BlpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageShow',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\ImageShow.py',
+   'PYMODULE'),
+  ('PIL.ImageCms',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\ImageCms.py',
+   'PYMODULE'),
+  ('PIL.ImageWin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\ImageWin.py',
+   'PYMODULE'),
+  ('PIL.PpmImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\PpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\JpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegPresets',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\JpegPresets.py',
+   'PYMODULE'),
+  ('PIL.GifImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\GifImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageOps',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\ImageOps.py',
+   'PYMODULE'),
+  ('PIL.ImageMath',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\ImageMath.py',
+   'PYMODULE'),
+  ('PIL.TiffImagePlugin',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\TiffImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageQt',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\ImageQt.py',
+   'PYMODULE'),
+  ('PIL.ImageFilter',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\ImageFilter.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\etree\\ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\etree\\cElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\etree\\ElementInclude.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\etree\\ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('PIL.TiffTags',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\TiffTags.py',
+   'PYMODULE'),
+  ('PIL.ImageMode',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\ImageMode.py',
+   'PYMODULE'),
+  ('PIL.ExifTags',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\ExifTags.py',
+   'PYMODULE'),
+  ('PIL',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\__init__.py',
+   'PYMODULE'),
+  ('PIL.ImageDraw2',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\ImageDraw2.py',
+   'PYMODULE'),
+  ('PIL.ImagePath',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\ImagePath.py',
+   'PYMODULE'),
+  ('PIL.ImageFont',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\ImageFont.py',
+   'PYMODULE'),
+  ('PIL.ImageDraw',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\ImageDraw.py',
+   'PYMODULE'),
+  ('PIL._version',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\_version.py',
+   'PYMODULE'),
+  ('pyperclip',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\pyperclip\\__init__.py',
+   'PYMODULE'),
+  ('pyscreeze',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\pyscreeze\\__init__.py',
+   'PYMODULE'),
   ('pymsgbox',
    'f:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\pymsgbox\\__init__.py',
@@ -1400,16 +2549,10 @@
    'f:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\pytweening\\__init__.py',
    'PYMODULE'),
-  ('platform',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\platform.py',
-   'PYMODULE'),
   ('utils.loadMusicalScore',
    'F:\\Code Projects\\GenshinMusician\\utils\\loadMusicalScore.py',
    'PYMODULE'),
   ('utils', '-', 'PYMODULE'),
-  ('utils.isPlayMode',
-   'F:\\Code Projects\\GenshinMusician\\utils\\isPlayMode.py',
-   'PYMODULE'),
   ('utils.activateTargetWindow',
    'F:\\Code Projects\\GenshinMusician\\utils\\activateTargetWindow.py',
    'PYMODULE'),
@@ -1443,13 +2586,13 @@
  [('python313.dll',
    'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll',
    'BINARY'),
-  ('numpy.libs\\msvcp140-263139962577ecda4cd9469ca360a746.dll',
-   'f:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy.libs\\msvcp140-263139962577ecda4cd9469ca360a746.dll',
-   'BINARY'),
   ('numpy.libs\\libscipy_openblas64_-43e11ff0749b8cbe0a615c9cf6737e0e.dll',
    'f:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-43e11ff0749b8cbe0a615c9cf6737e0e.dll',
+   'BINARY'),
+  ('numpy.libs\\msvcp140-263139962577ecda4cd9469ca360a746.dll',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy.libs\\msvcp140-263139962577ecda4cd9469ca360a746.dll',
    'BINARY'),
   ('PySide6\\opengl32sw.dll',
    'F:\\Code '
@@ -1459,6 +2602,10 @@
    'F:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\plugins\\tls\\qopensslbackend.dll',
    'BINARY'),
+  ('PySide6\\plugins\\networkinformation\\qnetworklistmanager.dll',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\plugins\\networkinformation\\qnetworklistmanager.dll',
+   'BINARY'),
   ('PySide6\\plugins\\tls\\qschannelbackend.dll',
    'F:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\plugins\\tls\\qschannelbackend.dll',
@@ -1467,25 +2614,45 @@
    'F:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\plugins\\tls\\qcertonlybackend.dll',
    'BINARY'),
-  ('PySide6\\plugins\\networkinformation\\qnetworklistmanager.dll',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\plugins\\networkinformation\\qnetworklistmanager.dll',
-   'BINARY'),
   ('PySide6\\plugins\\generic\\qtuiotouchplugin.dll',
    'F:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\plugins\\generic\\qtuiotouchplugin.dll',
    'BINARY'),
-  ('PySide6\\plugins\\imageformats\\qtiff.dll',
+  ('PySide6\\plugins\\imageformats\\qwebp.dll',
    'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qtiff.dll',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qwebp.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qminimal.dll',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qminimal.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qgif.dll',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qgif.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qjpeg.dll',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qjpeg.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qsvg.dll',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qsvg.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qwbmp.dll',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qwbmp.dll',
    'BINARY'),
   ('PySide6\\plugins\\platforms\\qoffscreen.dll',
    'F:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qoffscreen.dll',
    'BINARY'),
-  ('PySide6\\plugins\\imageformats\\qwbmp.dll',
+  ('PySide6\\plugins\\imageformats\\qico.dll',
    'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qwbmp.dll',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qico.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qpdf.dll',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qpdf.dll',
    'BINARY'),
   ('PySide6\\plugins\\imageformats\\qicns.dll',
    'F:\\Code '
@@ -1495,49 +2662,25 @@
    'F:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\plugins\\platforminputcontexts\\qtvirtualkeyboardplugin.dll',
    'BINARY'),
-  ('PySide6\\plugins\\platforms\\qminimal.dll',
+  ('PySide6\\plugins\\imageformats\\qtga.dll',
    'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qminimal.dll',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qtga.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qtiff.dll',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qtiff.dll',
    'BINARY'),
   ('PySide6\\plugins\\platforms\\qwindows.dll',
    'F:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qwindows.dll',
    'BINARY'),
-  ('PySide6\\plugins\\imageformats\\qjpeg.dll',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qjpeg.dll',
-   'BINARY'),
-  ('PySide6\\plugins\\imageformats\\qtga.dll',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qtga.dll',
-   'BINARY'),
   ('PySide6\\plugins\\iconengines\\qsvgicon.dll',
    'F:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\plugins\\iconengines\\qsvgicon.dll',
    'BINARY'),
-  ('PySide6\\plugins\\imageformats\\qsvg.dll',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qsvg.dll',
-   'BINARY'),
   ('PySide6\\plugins\\platforms\\qdirect2d.dll',
    'F:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qdirect2d.dll',
-   'BINARY'),
-  ('PySide6\\plugins\\imageformats\\qwebp.dll',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qwebp.dll',
-   'BINARY'),
-  ('PySide6\\plugins\\imageformats\\qgif.dll',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qgif.dll',
-   'BINARY'),
-  ('PySide6\\plugins\\imageformats\\qpdf.dll',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qpdf.dll',
-   'BINARY'),
-  ('PySide6\\plugins\\imageformats\\qico.dll',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qico.dll',
    'BINARY'),
   ('PySide6\\plugins\\styles\\qmodernwindowsstyle.dll',
    'F:\\Code '
@@ -1564,26 +2707,29 @@
   ('unicodedata.pyd',
    'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\unicodedata.pyd',
    'EXTENSION'),
+  ('_queue.pyd',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_wmi.pyd',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_wmi.pyd',
+   'EXTENSION'),
+  ('_overlapped.pyd',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('_asyncio.pyd',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
   ('_multiprocessing.pyd',
    'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_multiprocessing.pyd',
    'EXTENSION'),
   ('pyexpat.pyd',
    'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\pyexpat.pyd',
-   'EXTENSION'),
-  ('_ssl.pyd',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_ssl.pyd',
-   'EXTENSION'),
-  ('_ctypes.pyd',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_ctypes.pyd',
-   'EXTENSION'),
-  ('_queue.pyd',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_queue.pyd',
-   'EXTENSION'),
-  ('_overlapped.pyd',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_overlapped.pyd',
-   'EXTENSION'),
-  ('_asyncio.pyd',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_asyncio.pyd',
    'EXTENSION'),
   ('numpy\\_core\\_multiarray_tests.cp313-win_amd64.pyd',
    'f:\\Code '
@@ -1641,8 +2787,32 @@
    'f:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\fft\\_pocketfft_umath.cp313-win_amd64.pyd',
    'EXTENSION'),
-  ('_wmi.pyd',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_wmi.pyd',
+  ('PIL\\_imaging.cp313-win_amd64.pyd',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\_imaging.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_webp.cp313-win_amd64.pyd',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\_webp.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingtk.cp313-win_amd64.pyd',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\_imagingtk.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingcms.cp313-win_amd64.pyd',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\_imagingcms.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingmath.cp313-win_amd64.pyd',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\_imagingmath.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('_elementtree.pyd',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_elementtree.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingft.cp313-win_amd64.pyd',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PIL\\_imagingft.cp313-win_amd64.pyd',
    'EXTENSION'),
   ('win32\\win32gui.pyd',
    'f:\\Code '
@@ -1668,56 +2838,60 @@
    'f:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\QtWidgets.pyd',
    'EXTENSION'),
-  ('api-ms-win-crt-environment-l1-1-0.dll',
-   'D:\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-environment-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-math-l1-1-0.dll',
-   'D:\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-math-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-string-l1-1-0.dll',
-   'D:\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-string-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-runtime-l1-1-0.dll',
-   'D:\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-runtime-l1-1-0.dll',
-   'BINARY'),
-  ('VCRUNTIME140.dll',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll',
-   'BINARY'),
-  ('api-ms-win-crt-process-l1-1-0.dll',
-   'D:\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-process-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-locale-l1-1-0.dll',
-   'D:\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-locale-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-time-l1-1-0.dll',
-   'D:\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-time-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-convert-l1-1-0.dll',
-   'D:\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-convert-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-crt-stdio-l1-1-0.dll',
    'D:\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-crt-stdio-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-conio-l1-1-0.dll',
-   'D:\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-conio-l1-1-0.dll',
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll',
    'BINARY'),
   ('api-ms-win-crt-heap-l1-1-0.dll',
    'D:\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-crt-heap-l1-1-0.dll',
    'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'D:\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'D:\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'D:\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
   ('api-ms-win-crt-filesystem-l1-1-0.dll',
    'D:\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'D:\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'D:\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-process-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'D:\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-environment-l1-1-0.dll',
+   'D:\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-environment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-string-l1-1-0.dll',
+   'D:\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-conio-l1-1-0.dll',
+   'D:\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-private-l1-1-0.dll',
+   'D:\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-private-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-utility-l1-1-0.dll',
    'D:\\Windows Kits\\10\\Windows Performance '
@@ -1726,29 +2900,21 @@
   ('VCRUNTIME140_1.dll',
    'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140_1.dll',
    'BINARY'),
-  ('api-ms-win-crt-private-l1-1-0.dll',
-   'D:\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-private-l1-1-0.dll',
-   'BINARY'),
-  ('PySide6\\Qt6Core.dll',
+  ('PySide6\\Qt6Network.dll',
    'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\Qt6Core.dll',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\Qt6Network.dll',
    'BINARY'),
   ('shiboken6\\MSVCP140.dll',
    'F:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\shiboken6\\MSVCP140.dll',
    'BINARY'),
-  ('PySide6\\Qt6Network.dll',
+  ('PySide6\\Qt6Core.dll',
    'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\Qt6Network.dll',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\Qt6Core.dll',
    'BINARY'),
   ('PySide6\\Qt6Gui.dll',
    'F:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\Qt6Gui.dll',
-   'BINARY'),
-  ('PySide6\\Qt6VirtualKeyboard.dll',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\Qt6VirtualKeyboard.dll',
    'BINARY'),
   ('PySide6\\Qt6Svg.dll',
    'F:\\Code '
@@ -1758,6 +2924,10 @@
    'F:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\Qt6Pdf.dll',
    'BINARY'),
+  ('PySide6\\Qt6VirtualKeyboard.dll',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\Qt6VirtualKeyboard.dll',
+   'BINARY'),
   ('PySide6\\Qt6Widgets.dll',
    'F:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\Qt6Widgets.dll',
@@ -1765,19 +2935,23 @@
   ('libcrypto-3.dll',
    'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libcrypto-3.dll',
    'BINARY'),
-  ('libssl-3.dll',
-   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libssl-3.dll',
-   'BINARY'),
   ('libffi-8.dll',
    'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libffi-8.dll',
+   'BINARY'),
+  ('libssl-3.dll',
+   'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libssl-3.dll',
    'BINARY'),
   ('pywin32_system32\\pywintypes313.dll',
    'f:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\pywin32_system32\\pywintypes313.dll',
    'BINARY'),
-  ('PySide6\\MSVCP140.dll',
+  ('PySide6\\VCRUNTIME140_1.dll',
    'f:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\MSVCP140.dll',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('shiboken6\\shiboken6.abi3.dll',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\shiboken6\\shiboken6.abi3.dll',
    'BINARY'),
   ('PySide6\\VCRUNTIME140.dll',
    'f:\\Code '
@@ -1787,16 +2961,12 @@
    'f:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\pyside6.abi3.dll',
    'BINARY'),
-  ('PySide6\\VCRUNTIME140_1.dll',
-   'f:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\VCRUNTIME140_1.dll',
-   'BINARY'),
   ('python3.dll',
    'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\python3.dll',
    'BINARY'),
-  ('shiboken6\\shiboken6.abi3.dll',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\shiboken6\\shiboken6.abi3.dll',
+  ('PySide6\\MSVCP140.dll',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\MSVCP140.dll',
    'BINARY'),
   ('shiboken6\\VCRUNTIME140.dll',
    'f:\\Code '
@@ -1829,101 +2999,105 @@
    'F:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\Qt6Quick.dll',
    'BINARY'),
-  ('api-ms-win-core-file-l2-1-0.dll',
-   'D:\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-file-l2-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-memory-l1-1-0.dll',
-   'D:\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-memory-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-processenvironment-l1-1-0.dll',
-   'D:\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-processenvironment-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-datetime-l1-1-0.dll',
-   'D:\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-datetime-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-libraryloader-l1-1-0.dll',
-   'D:\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-libraryloader-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-debug-l1-1-0.dll',
-   'D:\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-debug-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-util-l1-1-0.dll',
-   'D:\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-util-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-0.dll',
-   'D:\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-processthreads-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-synch-l1-1-0.dll',
-   'D:\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-synch-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
-   'D:\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-rtlsupport-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-sysinfo-l1-1-0.dll',
-   'D:\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-sysinfo-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-timezone-l1-1-0.dll',
-   'D:\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-timezone-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-profile-l1-1-0.dll',
-   'D:\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-profile-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-errorhandling-l1-1-0.dll',
-   'D:\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-errorhandling-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-file-l1-2-0.dll',
-   'D:\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-file-l1-2-0.dll',
-   'BINARY'),
   ('api-ms-win-core-file-l1-1-0.dll',
    'D:\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-core-file-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-interlocked-l1-1-0.dll',
-   'D:\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-interlocked-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-localization-l1-2-0.dll',
-   'D:\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-localization-l1-2-0.dll',
    'BINARY'),
   ('api-ms-win-core-console-l1-1-0.dll',
    'D:\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-core-console-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-handle-l1-1-0.dll',
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
    'D:\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-handle-l1-1-0.dll',
+   'Toolkit\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'D:\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'D:\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'D:\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'D:\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-debug-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-namedpipe-l1-1-0.dll',
    'D:\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-core-namedpipe-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-1.dll',
-   'D:\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-processthreads-l1-1-1.dll',
-   'BINARY'),
   ('api-ms-win-core-string-l1-1-0.dll',
    'D:\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-core-string-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-heap-l1-1-0.dll',
+  ('api-ms-win-core-localization-l1-2-0.dll',
    'D:\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-heap-l1-1-0.dll',
+   'Toolkit\\api-ms-win-core-localization-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'D:\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'D:\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'D:\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'D:\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'D:\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'D:\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'D:\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'D:\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'D:\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-processthreads-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'D:\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'D:\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'D:\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'D:\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'D:\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('PySide6\\Qt6QmlMeta.dll',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\Qt6QmlMeta.dll',
    'BINARY'),
   ('PySide6\\Qt6QmlModels.dll',
    'F:\\Code '
@@ -1933,19 +3107,216 @@
    'F:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\Qt6OpenGL.dll',
    'BINARY'),
-  ('PySide6\\Qt6QmlMeta.dll',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\Qt6QmlMeta.dll',
-   'BINARY'),
   ('PySide6\\Qt6QmlWorkerScript.dll',
    'F:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\Qt6QmlWorkerScript.dll',
    'BINARY')],
  [],
  [],
- [('PySide6\\translations\\qt_tr.qm',
+ [('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
+   'DATA'),
+  ('setuptools\\_vendor\\jaraco\\text\\Lorem ipsum.txt',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\Lorem '
+   'ipsum.txt',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_tr.qm',
    'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_tr.qm',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_tr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_fi.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_fi.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_cs.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_cs.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_pt_PT.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_pt_PT.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_zh_TW.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_zh_TW.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_sl.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_sl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_hr.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_hr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_hr.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_hr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_hr.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_hr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_da.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_da.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_it.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_it.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ja.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ja.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ja.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ja.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ka.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ka.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_de.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_de.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_nl.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_nl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_pt_BR.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_pt_BR.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_fa.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_fa.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_bg.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_bg.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_en.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_en.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ko.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ko.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_fa.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_fa.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_es.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_es.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_fr.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_fr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_es.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_es.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_zh_TW.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_zh_TW.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_sk.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_sk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_es.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_es.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ko.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ko.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ru.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ru.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_hu.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_hu.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_lv.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_lv.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ko.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ko.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_cs.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_cs.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_nn.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_nn.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_cs.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_cs.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_bg.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_bg.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_fi.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_fi.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_it.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_it.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_da.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_da.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_hu.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_hu.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_tr.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_tr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_he.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_he.qm',
    'DATA'),
   ('PySide6\\translations\\qt_lt.qm',
    'F:\\Code '
@@ -1955,393 +3326,253 @@
    'F:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_it.qm',
    'DATA'),
-  ('PySide6\\translations\\qtbase_hu.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_hu.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_pl.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_pl.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_ru.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ru.qm',
-   'DATA'),
   ('PySide6\\translations\\qtbase_nl.qm',
    'F:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_nl.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_fa.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_fa.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_fa.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_fa.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_ar.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ar.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_cs.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_cs.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_bg.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_bg.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_ja.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ja.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_it.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_it.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_zh_TW.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_zh_TW.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_tr.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_tr.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_en.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_en.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_nn.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_nn.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_da.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_da.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_fr.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_fr.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_pl.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_pl.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_ka.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ka.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_sl.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_sl.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_fr.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_fr.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_gl.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_gl.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_gd.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_gd.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_ka.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ka.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_ko.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ko.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_ru.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ru.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_zh_CN.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_zh_CN.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_ca.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ca.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_tr.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_tr.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_uk.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_uk.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_nn.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_nn.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_ko.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ko.qm',
    'DATA'),
   ('PySide6\\translations\\qt_ar.qm',
    'F:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ar.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_help_pt_BR.qm',
+  ('PySide6\\translations\\qt_zh_CN.qm',
    'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_pt_BR.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_fr.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_fr.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_ar.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ar.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_ja.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ja.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_bg.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_bg.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_sk.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_sk.qm',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_zh_CN.qm',
    'DATA'),
   ('PySide6\\translations\\qtbase_ca.qm',
    'F:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ca.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_es.qm',
+  ('PySide6\\translations\\qt_fr.qm',
    'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_es.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_de.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_de.qm',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_fr.qm',
    'DATA'),
   ('PySide6\\translations\\qt_help_uk.qm',
    'F:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_uk.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_lv.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_lv.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_es.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_es.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_ja.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ja.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_zh_CN.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_zh_CN.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_cs.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_cs.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_de.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_de.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_da.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_da.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_fi.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_fi.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_zh_TW.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_zh_TW.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_ca.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ca.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_hr.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_hr.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_da.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_da.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_de.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_de.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_it.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_it.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_ko.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ko.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_sl.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_sl.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_nn.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_nn.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_sk.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_sk.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_hu.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_hu.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_lv.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_lv.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_hr.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_hr.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_fi.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_fi.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_zh_TW.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_zh_TW.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_cs.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_cs.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_sv.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_sv.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_sk.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_sk.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_hu.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_hu.qm',
-   'DATA'),
   ('PySide6\\translations\\qt_gl.qm',
    'F:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_gl.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_nl.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_nl.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_es.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_es.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_pl.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_pl.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_he.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_he.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_zh_CN.qm',
-   'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_zh_CN.qm',
    'DATA'),
   ('PySide6\\translations\\qt_help_ka.qm',
    'F:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ka.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_bg.qm',
+  ('PySide6\\translations\\qt_ka.qm',
    'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_bg.qm',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ka.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_pt_BR.qm',
+  ('PySide6\\translations\\qt_ru.qm',
    'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_pt_BR.qm',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ru.qm',
    'DATA'),
-  ('PySide6\\translations\\qtbase_gd.qm',
+  ('PySide6\\translations\\qt_help_sk.qm',
    'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_gd.qm',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_sk.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_help_ru.qm',
+  ('PySide6\\translations\\qt_help_ar.qm',
    'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ru.qm',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ar.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_nl.qm',
+  ('PySide6\\translations\\qtbase_sk.qm',
    'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_nl.qm',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_sk.qm',
    'DATA'),
   ('PySide6\\translations\\qt_uk.qm',
    'F:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_uk.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_help_en.qm',
+  ('PySide6\\translations\\qt_en.qm',
    'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_en.qm',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_en.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_help_hr.qm',
+  ('PySide6\\translations\\qt_sv.qm',
    'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_hr.qm',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_sv.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_pt_PT.qm',
+  ('PySide6\\translations\\qt_help_pt_BR.qm',
    'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_pt_PT.qm',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_pt_BR.qm',
    'DATA'),
-  ('PySide6\\translations\\qtbase_pt_BR.qm',
+  ('PySide6\\translations\\qt_sl.qm',
    'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_pt_BR.qm',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_sl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ja.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ja.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_tr.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_tr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_da.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_da.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_de.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_de.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_hu.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_hu.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_pt_BR.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_pt_BR.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_pl.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_pl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_gl.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_gl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_he.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_he.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_zh_CN.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_zh_CN.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ar.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ar.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ca.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ca.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_nl.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_nl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_bg.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_bg.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_zh_TW.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_zh_TW.qm',
    'DATA'),
   ('PySide6\\translations\\qtbase_en.qm',
    'F:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_en.qm',
    'DATA'),
-  ('PySide6\\translations\\qtbase_he.qm',
+  ('PySide6\\translations\\qtbase_fr.qm',
    'F:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_he.qm',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_fr.qm',
    'DATA'),
-  ('numpy-2.2.3.dist-info\\DELVEWHEEL',
-   'f:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy-2.2.3.dist-info\\DELVEWHEEL',
+  ('PySide6\\translations\\qtbase_uk.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_uk.qm',
    'DATA'),
-  ('numpy-2.2.3.dist-info\\RECORD',
-   'f:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy-2.2.3.dist-info\\RECORD',
+  ('PySide6\\translations\\qt_pl.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_pl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_nn.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_nn.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_de.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_de.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_lv.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_lv.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ca.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ca.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ru.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ru.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_gd.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_gd.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_pl.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_pl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_nn.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_nn.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_zh_CN.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_zh_CN.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_gd.qm',
+   'F:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_gd.qm',
    'DATA'),
   ('numpy-2.2.3.dist-info\\REQUESTED',
    'f:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy-2.2.3.dist-info\\REQUESTED',
    'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\LICENSE.txt',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\LICENSE.txt',
+   'DATA'),
   ('numpy-2.2.3.dist-info\\WHEEL',
    'f:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy-2.2.3.dist-info\\WHEEL',
    'DATA'),
-  ('numpy-2.2.3.dist-info\\INSTALLER',
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\WHEEL',
    'f:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy-2.2.3.dist-info\\INSTALLER',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\WHEEL',
    'DATA'),
-  ('numpy-2.2.3.dist-info\\LICENSE.txt',
+  ('numpy-2.2.3.dist-info\\METADATA',
    'f:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy-2.2.3.dist-info\\LICENSE.txt',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy-2.2.3.dist-info\\METADATA',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\INSTALLER',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\RECORD',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\RECORD',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\REQUESTED',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\REQUESTED',
    'DATA'),
   ('numpy-2.2.3.dist-info\\entry_points.txt',
    'f:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy-2.2.3.dist-info\\entry_points.txt',
    'DATA'),
-  ('numpy-2.2.3.dist-info\\METADATA',
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\entry_points.txt',
    'f:\\Code '
-   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy-2.2.3.dist-info\\METADATA',
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\entry_points.txt',
+   'DATA'),
+  ('numpy-2.2.3.dist-info\\DELVEWHEEL',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy-2.2.3.dist-info\\DELVEWHEEL',
+   'DATA'),
+  ('numpy-2.2.3.dist-info\\INSTALLER',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy-2.2.3.dist-info\\INSTALLER',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\METADATA',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\METADATA',
+   'DATA'),
+  ('numpy-2.2.3.dist-info\\RECORD',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy-2.2.3.dist-info\\RECORD',
+   'DATA'),
+  ('numpy-2.2.3.dist-info\\LICENSE.txt',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy-2.2.3.dist-info\\LICENSE.txt',
    'DATA'),
   ('base_library.zip',
    'F:\\Code '
