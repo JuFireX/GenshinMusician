@@ -27,7 +27,7 @@ def loadScore(filename):
 
 
 if __name__ == "__main__":
-    filename = "F:\Code Projects\_Local Projects\GenshinMusician\songs\打上花火.txt"
+    filename = "F:\Code Projects\_Local Projects\GenshinMusician\songs\欢乐颂.txt"
     testscore = []
 
     try:
