@@ -1,14 +1,32 @@
+import re
+
 def loadScore(filename):
+    context = ""
     score = []
     with open(filename, "r", encoding="utf-8") as file:
-        for line in file:
+        lines = file.readlines()
+        for line in lines:
             line = line.strip()
-            score.append(tuple(line))
+            line = re.sub(r"/", "", line)
+            context += line
+    i = 0
+    while i < len(context):
+        if context[i] == "(":
+            temp = ""
+            j = 1
+            while context[i + j] != ")":
+                temp += context[i + j]
+                j += 1
+            score.append(tuple(temp))
+            i += j + 1
+        else:
+            score.append(tuple(context[i]))
+            i += 1
     return score
 
 
 if __name__ == "__main__":
-    filename = "./songs/test.txt"
+    filename = "F:\Code Projects\_Local Projects\GenshinMusician\songs\打上花火.txt"
     testscore = []
 
     try:
