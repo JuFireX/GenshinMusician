@@ -151,7 +151,7 @@ class Musician(QThread):
 
     def tryActivateGenshin(self):
         Genshin = "原神"
-        template = "cache/template.png"
+        # template = "cache/template.png"
         isActive, msg = activate(Genshin)
         if isActive:
             self.logSignal.emit(msg)
