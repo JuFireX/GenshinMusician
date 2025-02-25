@@ -29,9 +29,9 @@ def match(path):
             circles_roi.append(circle_roi)
     else:
         return False,f"fail"
-    cv2.imshow('Detected Circles', img)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+    #cv2.imshow('Detected Circles', img)
+    #cv2.waitKey(0)
+    #cv2.destroyAllWindows()
 
     template=cv2.imread(path)
     template=cv2.resize(template,(1464,160))
@@ -59,20 +59,19 @@ def match(path):
             circles_roi_template.append(circle_roi)
     else:
         return False,f"fail"
-    cv2.imshow('Detected Circles', img_template)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+    #cv2.imshow('Detected Circles', img_template)
+    #cv2.waitKey(0)
+    #cv2.destroyAllWindows()
     for i in circles_roi:
         for j in circles_roi_template:
             result=cv2.matchTemplate(i,j,cv2.TM_CCOEFF_NORMED)
             max_val,min_val,max_loc,min_loc=cv2.minMaxLoc(result)
-            threshold=0.8
+            threshold=0.7
             if max_val >= threshold:
-                print("success")
+                print(f"匹配成功，匹配值{max_val}")
                 return True,f"匹配成功"
             else:
-                print("false")
+                print(f"匹配失败，匹配值{max_val}")
                 return False,f"匹配失败"
 if __name__ == "__main__" :
-    match(f"F:\\project\\isplay\\matchpicture\\piano.png")
-
+    match(f"cache\\piano.png")

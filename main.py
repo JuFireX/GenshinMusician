@@ -3,6 +3,7 @@ from PySide6.QtCore import QThread, Signal, QMutex
 from ui.Ui_musician import Ui_Form
 from utils.activateTargetWindow import activate
 from utils.loadMusicalScore import loadScore
+from utils.isPlayMode import match
 import time
 
 
@@ -153,8 +154,13 @@ class Musician(QThread):
         isActive, msg = activate(Genshin)
         if isActive:
             self.logSignal.emit(msg)
-            self.logSignal.emit(f"请确保正在使用演奏工具")
-            return True
+            isplay,msg=match("cache\\piano.png")
+            if isplay:
+                self.logSignal.emit(f"正在使用演奏工具")
+                return True
+            else:
+                self.logSignal.emit(f"请确保正在使用演奏工具")
+                return False
         else:
             self.logSignal.emit(msg)
             return False
