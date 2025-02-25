@@ -29,7 +29,7 @@ class MainWindow(QWidget, Ui_Form):
 
     def select_path(self):
         self.path = QFileDialog.getOpenFileName(
-            self, "选择谱面", "./songs/", "Text Files (*.txt)"
+            self, "选择谱面", "./Gmidi/songs/", "Text Files (*.txt)"
         )[0]
         self.lineEdit_path.setText(self.path)
 
@@ -153,15 +153,16 @@ class Musician(QThread):
 
     def tryActivateGenshin(self):
         Genshin = "原神"
+        template = "cache/piano.png"
         isActive, msg = activate(Genshin)
         if isActive:
             self.logSignal.emit(msg)
-            isplay,msg=match("cache\\piano.png")
+            isplay, msg = match(template)
             if isplay:
-                self.logSignal.emit(f"正在使用演奏工具")
+                self.logSignal.emit(msg)
                 return True
             else:
-                self.logSignal.emit(f"请确保正在使用演奏工具")
+                self.logSignal.emit(msg)
                 return False
         else:
             self.logSignal.emit(msg)
@@ -193,10 +194,10 @@ class Musician(QThread):
 
 
 if __name__ == "__main__":
-    folder_path_1="./Gmidi/songs"
-    folder_path_2="./Gmidi/cache"
-    os.makedirs(folder_path_1,exist_ok=True)
-    os.makedirs(folder_path_2,exist_ok=True)
+    folder_path_1 = "./Gmidi/songs"
+    folder_path_2 = "./Gmidi/cache"
+    os.makedirs(folder_path_1, exist_ok=True)
+    os.makedirs(folder_path_2, exist_ok=True)
     app = QApplication()
     window = MainWindow()
     window.show()
