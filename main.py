@@ -5,6 +5,7 @@ from utils.activateTargetWindow import activate
 from utils.loadMusicalScore import loadScore
 from utils.isPlayMode import match
 import time
+import os
 
 
 class MainWindow(QWidget, Ui_Form):
@@ -123,6 +124,7 @@ class Musician(QThread):
 
     def run(self):
         if self.tryActivateGenshin():
+
             self.logSignal.emit(f"播放开始")
             self.logSignal.emit(f"谱面 {self.name} 速度 {self.bpm}")
             self.is_running = True
@@ -191,6 +193,10 @@ class Musician(QThread):
 
 
 if __name__ == "__main__":
+    folder_path_1="./Gmidi/songs"
+    folder_path_2="./Gmidi/cache"
+    os.makedirs(folder_path_1,exist_ok=True)
+    os.makedirs(folder_path_2,exist_ok=True)
     app = QApplication()
     window = MainWindow()
     window.show()
