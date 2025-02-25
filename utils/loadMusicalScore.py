@@ -160,7 +160,7 @@ class MidiParser:
 
 
 def loadScore(path: str, bpm=120):
-    if path.endswith(".gmid"):
+    if path.endswith(".txt"):
         Events = GmidParser.parse(path, bpm)
     elif path.endswith(".mid"):
         Events = MidiParser.parse(path)

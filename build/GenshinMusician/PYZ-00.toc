@@ -869,6 +869,90 @@
   ('lzma',
    'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\lzma.py',
    'PYMODULE'),
+  ('mido',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\mido\\__init__.py',
+   'PYMODULE'),
+  ('mido.backends',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\mido\\backends\\__init__.py',
+   'PYMODULE'),
+  ('mido.backends.backend',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\mido\\backends\\backend.py',
+   'PYMODULE'),
+  ('mido.messages',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\mido\\messages\\__init__.py',
+   'PYMODULE'),
+  ('mido.messages.checks',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\mido\\messages\\checks.py',
+   'PYMODULE'),
+  ('mido.messages.decode',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\mido\\messages\\decode.py',
+   'PYMODULE'),
+  ('mido.messages.encode',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\mido\\messages\\encode.py',
+   'PYMODULE'),
+  ('mido.messages.messages',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\mido\\messages\\messages.py',
+   'PYMODULE'),
+  ('mido.messages.specs',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\mido\\messages\\specs.py',
+   'PYMODULE'),
+  ('mido.messages.strings',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\mido\\messages\\strings.py',
+   'PYMODULE'),
+  ('mido.midifiles',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\mido\\midifiles\\__init__.py',
+   'PYMODULE'),
+  ('mido.midifiles.meta',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\mido\\midifiles\\meta.py',
+   'PYMODULE'),
+  ('mido.midifiles.midifiles',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\mido\\midifiles\\midifiles.py',
+   'PYMODULE'),
+  ('mido.midifiles.tracks',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\mido\\midifiles\\tracks.py',
+   'PYMODULE'),
+  ('mido.midifiles.units',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\mido\\midifiles\\units.py',
+   'PYMODULE'),
+  ('mido.parser',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\mido\\parser.py',
+   'PYMODULE'),
+  ('mido.ports',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\mido\\ports.py',
+   'PYMODULE'),
+  ('mido.sockets',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\mido\\sockets.py',
+   'PYMODULE'),
+  ('mido.syx',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\mido\\syx.py',
+   'PYMODULE'),
+  ('mido.tokenizer',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\mido\\tokenizer.py',
+   'PYMODULE'),
+  ('mido.version',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\mido\\version.py',
+   'PYMODULE'),
   ('mimetypes',
    'C:\\Users\\27796\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\mimetypes.py',
    'PYMODULE'),
@@ -1170,6 +1254,10 @@
   ('numpy.core._utils',
    'f:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\core\\_utils.py',
+   'PYMODULE'),
+  ('numpy.core.multiarray',
+   'f:\\Code '
+   'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\numpy\\core\\multiarray.py',
    'PYMODULE'),
   ('numpy.ctypeslib',
    'f:\\Code '
@@ -2461,6 +2549,9 @@
   ('utils', '-', 'PYMODULE'),
   ('utils.activateTargetWindow',
    'F:\\Code Projects\\GenshinMusician\\utils\\activateTargetWindow.py',
+   'PYMODULE'),
+  ('utils.isPlayMode',
+   'F:\\Code Projects\\GenshinMusician\\utils\\isPlayMode.py',
    'PYMODULE'),
   ('utils.loadMusicalScore',
    'F:\\Code Projects\\GenshinMusician\\utils\\loadMusicalScore.py',

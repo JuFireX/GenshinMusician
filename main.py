@@ -180,7 +180,7 @@ class Musician(QThread):
         while self.is_running:
             self.lock.lock()  # 获取锁
             if not self.is_paused:
-                chord = self.score[index]
+                chord = self.score[index][1]
                 self.logSignal.emit(f"{chord}")
                 pyautogui.hotkey(*chord)
                 time.sleep(self.tik)

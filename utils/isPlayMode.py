@@ -37,7 +37,7 @@ def match(path):
             # 设定匹配阈值
             circles_roi.append(circle_roi)
     else:
-        return (False, f"匹配失败1")
+        return (False, f"匹配失败 请使用2560x1600窗口")
     # cv2.imshow('Detected Circles', img)
     # cv2.waitKey(0)
     # cv2.destroyAllWindows()
@@ -75,7 +75,7 @@ def match(path):
             # 设定匹配阈值
             circles_roi_template.append(circle_roi)
     else:
-        return (False, f"匹配失败2")
+        return (False, f"匹配失败 请使用2560x1600窗口")
     # cv2.imshow('Detected Circles', img_template)
     # cv2.waitKey(0)
     # cv2.destroyAllWindows()

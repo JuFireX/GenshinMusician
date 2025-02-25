@@ -183,6 +183,7 @@ imports:
  &#8226;   <a href="#types">types</a>
  &#8226;   <a href="#ui.Ui_musician">ui.Ui_musician</a>
  &#8226;   <a href="#utils.activateTargetWindow">utils.activateTargetWindow</a>
+ &#8226;   <a href="#utils.isPlayMode">utils.isPlayMode</a>
  &#8226;   <a href="#utils.loadMusicalScore">utils.loadMusicalScore</a>
  &#8226;   <a href="#warnings">warnings</a>
  &#8226;   <a href="#weakref">weakref</a>
@@ -342,39 +343,6 @@ imported by:
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
     <a href="#pkg_resources">pkg_resources</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="'docutils.nodes'"></a>
-  <a target="code" href="" type="text/plain"><tt>'docutils.nodes'</tt></a>
-<span class="moduletype">MissingModule</span>  <div class="import">
-imported by:
-    <a href="#setuptools._distutils.command.check">setuptools._distutils.command.check</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="'docutils.parsers'"></a>
-  <a target="code" href="" type="text/plain"><tt>'docutils.parsers'</tt></a>
-<span class="moduletype">MissingModule</span>  <div class="import">
-imported by:
-    <a href="#setuptools._distutils.command.check">setuptools._distutils.command.check</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="'docutils.utils'"></a>
-  <a target="code" href="" type="text/plain"><tt>'docutils.utils'</tt></a>
-<span class="moduletype">MissingModule</span>  <div class="import">
-imported by:
-    <a href="#setuptools._distutils.command.check">setuptools._distutils.command.check</a>
 
   </div>
 
@@ -6583,6 +6551,7 @@ imported by:
  &#8226;   <a href="#concurrent.futures._base">concurrent.futures._base</a>
  &#8226;   <a href="#configparser">configparser</a>
  &#8226;   <a href="#contextlib">contextlib</a>
+ &#8226;   <a href="#cv2.utils">cv2.utils</a>
  &#8226;   <a href="#difflib">difflib</a>
  &#8226;   <a href="#dis">dis</a>
  &#8226;   <a href="#doctest">doctest</a>
@@ -6593,6 +6562,8 @@ imported by:
  &#8226;   <a href="#importlib.resources.readers">importlib.resources.readers</a>
  &#8226;   <a href="#inspect">inspect</a>
  &#8226;   <a href="#main.py">main.py</a>
+ &#8226;   <a href="#mido.parser">mido.parser</a>
+ &#8226;   <a href="#mido.tokenizer">mido.tokenizer</a>
  &#8226;   <a href="#multiprocessing.heap">multiprocessing.heap</a>
  &#8226;   <a href="#multiprocessing.pool">multiprocessing.pool</a>
  &#8226;   <a href="#multiprocessing.queues">multiprocessing.queues</a>
@@ -6906,6 +6877,7 @@ imported by:
  &#8226;   <a href="#importlib.resources._adapters">importlib.resources._adapters</a>
  &#8226;   <a href="#importlib.resources._common">importlib.resources._common</a>
  &#8226;   <a href="#importlib.resources.readers">importlib.resources.readers</a>
+ &#8226;   <a href="#mido.midifiles.meta">mido.midifiles.meta</a>
  &#8226;   <a href="#numpy._core._methods">numpy._core._methods</a>
  &#8226;   <a href="#numpy._core._ufunc_config">numpy._core._ufunc_config</a>
  &#8226;   <a href="#numpy._core.arrayprint">numpy._core.arrayprint</a>
@@ -6996,6 +6968,7 @@ imported by:
  &#8226;   <a href="#_sre">_sre</a>
  &#8226;   <a href="#argparse">argparse</a>
  &#8226;   <a href="#collections">collections</a>
+ &#8226;   <a href="#cv2">cv2</a>
  &#8226;   <a href="#dataclasses">dataclasses</a>
  &#8226;   <a href="#email.generator">email.generator</a>
  &#8226;   <a href="#gettext">gettext</a>
@@ -7070,7 +7043,6 @@ imports:
     <a href="#_ctypes">_ctypes</a>
  &#8226;   <a href="#ctypes._endian">ctypes._endian</a>
  &#8226;   <a href="#ctypes.util">ctypes.util</a>
- &#8226;   <a href="#ctypes.wintypes">ctypes.wintypes</a>
  &#8226;   <a href="#nt">nt</a>
  &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#struct">struct</a>
@@ -7262,7 +7234,6 @@ imports:
   <div class="import">
 imported by:
     <a href="#_pyrepl.windows_console">_pyrepl.windows_console</a>
- &#8226;   <a href="#ctypes">ctypes</a>
  &#8226;   <a href="#pyautogui._pyautogui_win">pyautogui._pyautogui_win</a>
  &#8226;   <a href="#pygetwindow._pygetwindow_win">pygetwindow._pygetwindow_win</a>
  &#8226;   <a href="#pyperclip">pyperclip</a>
@@ -7314,10 +7285,309 @@ imported by:
 
 <div class="node">
   <a name="cv2"></a>
-  <a target="code" href="" type="text/plain"><tt>cv2</tt></a>
-<span class="moduletype">MissingModule</span>  <div class="import">
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/cv2/__init__.py" type="text/plain"><tt>cv2</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#copy">copy</a>
+ &#8226;   <a href="#cv2">cv2</a>
+ &#8226;   <a href="#cv2.config">cv2.config</a>
+ &#8226;   <a href="#cv2.config-3">cv2.config-3</a>
+ &#8226;   <a href="#cv2.cv2">cv2.cv2</a>
+ &#8226;   <a href="#cv2.data">cv2.data</a>
+ &#8226;   <a href="#cv2.gapi">cv2.gapi</a>
+ &#8226;   <a href="#cv2.load_config_py3">cv2.load_config_py3</a>
+ &#8226;   <a href="#cv2.mat_wrapper">cv2.mat_wrapper</a>
+ &#8226;   <a href="#cv2.misc">cv2.misc</a>
+ &#8226;   <a href="#cv2.misc.version">cv2.misc.version</a>
+ &#8226;   <a href="#cv2.typing">cv2.typing</a>
+ &#8226;   <a href="#cv2.utils">cv2.utils</a>
+ &#8226;   <a href="#cv2.version">cv2.version</a>
+ &#8226;   <a href="#importlib">importlib</a>
+ &#8226;   <a href="#numpy">numpy</a>
+ &#8226;   <a href="#numpy.core.multiarray">numpy.core.multiarray</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#platform">platform</a>
+ &#8226;   <a href="#sys">sys</a>
+
+  </div>
+  <div class="import">
 imported by:
-    <a href="#pyscreeze">pyscreeze</a>
+    <a href="#cv2">cv2</a>
+ &#8226;   <a href="#cv2.config">cv2.config</a>
+ &#8226;   <a href="#cv2.config-3">cv2.config-3</a>
+ &#8226;   <a href="#cv2.cv2">cv2.cv2</a>
+ &#8226;   <a href="#cv2.data">cv2.data</a>
+ &#8226;   <a href="#cv2.dnn">cv2.dnn</a>
+ &#8226;   <a href="#cv2.gapi">cv2.gapi</a>
+ &#8226;   <a href="#cv2.load_config_py3">cv2.load_config_py3</a>
+ &#8226;   <a href="#cv2.mat_wrapper">cv2.mat_wrapper</a>
+ &#8226;   <a href="#cv2.misc">cv2.misc</a>
+ &#8226;   <a href="#cv2.misc.version">cv2.misc.version</a>
+ &#8226;   <a href="#cv2.typing">cv2.typing</a>
+ &#8226;   <a href="#cv2.utils">cv2.utils</a>
+ &#8226;   <a href="#cv2.version">cv2.version</a>
+ &#8226;   <a href="#pyscreeze">pyscreeze</a>
+ &#8226;   <a href="#utils.isPlayMode">utils.isPlayMode</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="cv2.config"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/cv2/config.py" type="text/plain"><tt>cv2.config</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#cv2">cv2</a>
+ &#8226;   <a href="#os">os</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#cv2">cv2</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="cv2.config-3"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/cv2/config-3.py" type="text/plain"><tt>cv2.config-3</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#cv2">cv2</a>
+ &#8226;   <a href="#cv2.version">cv2.version</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#cv2">cv2</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="cv2.cv2"></a>
+  <tt>cv2.cv2</tt> <span class="moduletype"><tt>f:\Code Projects\GenshinMusician\.venv\Lib\site-packages\cv2\cv2.pyd</tt></span>  <div class="import">
+imports:
+    <a href="#cv2">cv2</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#cv2">cv2</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="cv2.data"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/cv2/data/__init__.py" type="text/plain"><tt>cv2.data</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#cv2">cv2</a>
+ &#8226;   <a href="#os">os</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#cv2">cv2</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="cv2.dnn"></a>
+  <a target="code" href="-" type="text/plain"><tt>cv2.dnn</tt></a>
+<span class="moduletype">NamespacePackage</span>  <div class="import">
+imports:
+    <a href="#cv2">cv2</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#cv2.typing">cv2.typing</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="cv2.gapi"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/cv2/gapi/__init__.py" type="text/plain"><tt>cv2.gapi</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#cv2">cv2</a>
+ &#8226;   <a href="#sys">sys</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#cv2">cv2</a>
+ &#8226;   <a href="#cv2.gapi.wip">cv2.gapi.wip</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="cv2.gapi.wip"></a>
+  <a target="code" href="-" type="text/plain"><tt>cv2.gapi.wip</tt></a>
+<span class="moduletype">NamespacePackage</span>  <div class="import">
+imports:
+    <a href="#cv2.gapi">cv2.gapi</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#cv2.gapi.wip.draw">cv2.gapi.wip.draw</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="cv2.gapi.wip.draw"></a>
+  <a target="code" href="-" type="text/plain"><tt>cv2.gapi.wip.draw</tt></a>
+<span class="moduletype">NamespacePackage</span>  <div class="import">
+imports:
+    <a href="#cv2.gapi.wip">cv2.gapi.wip</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#cv2.typing">cv2.typing</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="cv2.load_config_py3"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/cv2/load_config_py3.py" type="text/plain"><tt>cv2.load_config_py3</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#cv2">cv2</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#sys">sys</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#cv2">cv2</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="cv2.mat_wrapper"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/cv2/mat_wrapper/__init__.py" type="text/plain"><tt>cv2.mat_wrapper</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#cv2">cv2</a>
+ &#8226;   <a href="#numpy">numpy</a>
+ &#8226;   <a href="#typing">typing</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#cv2">cv2</a>
+ &#8226;   <a href="#cv2.typing">cv2.typing</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="cv2.misc"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/cv2/misc/__init__.py" type="text/plain"><tt>cv2.misc</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#cv2">cv2</a>
+ &#8226;   <a href="#cv2.misc.version">cv2.misc.version</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#cv2">cv2</a>
+ &#8226;   <a href="#cv2.misc.version">cv2.misc.version</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="cv2.misc.version"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/cv2/misc/version.py" type="text/plain"><tt>cv2.misc.version</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#cv2">cv2</a>
+ &#8226;   <a href="#cv2.misc">cv2.misc</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#cv2">cv2</a>
+ &#8226;   <a href="#cv2.misc">cv2.misc</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="cv2.typing"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/cv2/typing/__init__.py" type="text/plain"><tt>cv2.typing</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#cv2">cv2</a>
+ &#8226;   <a href="#cv2.dnn">cv2.dnn</a>
+ &#8226;   <a href="#cv2.gapi.wip.draw">cv2.gapi.wip.draw</a>
+ &#8226;   <a href="#cv2.mat_wrapper">cv2.mat_wrapper</a>
+ &#8226;   <a href="#numpy">numpy</a>
+ &#8226;   <a href="#typing">typing</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#cv2">cv2</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="cv2.utils"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/cv2/utils/__init__.py" type="text/plain"><tt>cv2.utils</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#collections">collections</a>
+ &#8226;   <a href="#cv2">cv2</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#cv2">cv2</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="cv2.version"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/cv2/version.py" type="text/plain"><tt>cv2.version</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#cv2">cv2</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#cv2">cv2</a>
+ &#8226;   <a href="#cv2.config-3">cv2.config-3</a>
 
   </div>
 
@@ -7537,17 +7807,6 @@ imports:
 imported by:
     <a href="#numpy.testing._private.utils">numpy.testing._private.utils</a>
  &#8226;   <a href="#pyrect">pyrect</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="docutils"></a>
-  <a target="code" href="" type="text/plain"><tt>docutils</tt></a>
-<span class="moduletype">MissingModule</span>  <div class="import">
-imported by:
-    <a href="#setuptools._distutils.command.check">setuptools._distutils.command.check</a>
 
   </div>
 
@@ -11336,6 +11595,7 @@ imports:
 imported by:
     <a href="#_distutils_hack">_distutils_hack</a>
  &#8226;   <a href="#_pyi_rth_utils.qt">_pyi_rth_utils.qt</a>
+ &#8226;   <a href="#cv2">cv2</a>
  &#8226;   <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib._abc">importlib._abc</a>
  &#8226;   <a href="#importlib._bootstrap">importlib._bootstrap</a>
@@ -11348,6 +11608,7 @@ imported by:
  &#8226;   <a href="#importlib.resources._common">importlib.resources._common</a>
  &#8226;   <a href="#importlib.util">importlib.util</a>
  &#8226;   <a href="#inspect">inspect</a>
+ &#8226;   <a href="#mido.backends.backend">mido.backends.backend</a>
  &#8226;   <a href="#pkg_resources">pkg_resources</a>
  &#8226;   <a href="#pkgutil">pkgutil</a>
  &#8226;   <a href="#setuptools._distutils">setuptools._distutils</a>
@@ -11534,6 +11795,7 @@ imported by:
  &#8226;   <a href="#importlib.metadata._itertools">importlib.metadata._itertools</a>
  &#8226;   <a href="#importlib.metadata._meta">importlib.metadata._meta</a>
  &#8226;   <a href="#importlib.metadata._text">importlib.metadata._text</a>
+ &#8226;   <a href="#mido.version">mido.version</a>
  &#8226;   <a href="#numpy.testing._private.utils">numpy.testing._private.utils</a>
  &#8226;   <a href="#setuptools._importlib">setuptools._importlib</a>
 
@@ -11876,7 +12138,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#setuptools._importlib">setuptools._importlib</a>
+    <a href="#mido.version">mido.version</a>
+ &#8226;   <a href="#setuptools._importlib">setuptools._importlib</a>
 
   </div>
 
@@ -12234,7 +12497,6 @@ imported by:
 <span class="moduletype">AliasNode</span>  <div class="import">
 imports:
     <a href="#jaraco">jaraco</a>
- &#8226;   <a href="#jaraco.text.yield_lines">jaraco.text.yield_lines</a>
  &#8226;   <a href="#setuptools._vendor.jaraco.text">setuptools._vendor.jaraco.text</a>
 
   </div>
@@ -12243,19 +12505,6 @@ imported by:
     <a href="#pkg_resources">pkg_resources</a>
  &#8226;   <a href="#setuptools._entry_points">setuptools._entry_points</a>
  &#8226;   <a href="#setuptools._reqs">setuptools._reqs</a>
- &#8226;   <a href="#setuptools.command._requirestxt">setuptools.command._requirestxt</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="jaraco.text.yield_lines"></a>
-  <a target="code" href="" type="text/plain"><tt>jaraco.text.yield_lines</tt></a>
-<span class="moduletype">MissingModule</span>  <div class="import">
-imported by:
-    <a href="#jaraco.text">jaraco.text</a>
- &#8226;   <a href="#setuptools._entry_points">setuptools._entry_points</a>
  &#8226;   <a href="#setuptools.command._requirestxt">setuptools.command._requirestxt</a>
 
   </div>
@@ -12554,6 +12803,7 @@ imported by:
  &#8226;   <a href="#asyncio.tasks">asyncio.tasks</a>
  &#8226;   <a href="#asyncio.windows_events">asyncio.windows_events</a>
  &#8226;   <a href="#fractions">fractions</a>
+ &#8226;   <a href="#mido.midifiles.meta">mido.midifiles.meta</a>
  &#8226;   <a href="#numpy._core._internal">numpy._core._internal</a>
  &#8226;   <a href="#numpy._core._machar">numpy._core._machar</a>
  &#8226;   <a href="#numpy._core.numeric">numpy._core.numeric</a>
@@ -12567,6 +12817,449 @@ imported by:
  &#8226;   <a href="#setuptools._vendor.more_itertools.recipes">setuptools._vendor.more_itertools.recipes</a>
  &#8226;   <a href="#statistics">statistics</a>
  &#8226;   <a href="#urllib.parse">urllib.parse</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="mido"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/mido/__init__.py" type="text/plain"><tt>mido</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#mido">mido</a>
+ &#8226;   <a href="#mido.backends.backend">mido.backends.backend</a>
+ &#8226;   <a href="#mido.messages">mido.messages</a>
+ &#8226;   <a href="#mido.midifiles">mido.midifiles</a>
+ &#8226;   <a href="#mido.parser">mido.parser</a>
+ &#8226;   <a href="#mido.ports">mido.ports</a>
+ &#8226;   <a href="#mido.sockets">mido.sockets</a>
+ &#8226;   <a href="#mido.syx">mido.syx</a>
+ &#8226;   <a href="#mido.version">mido.version</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#mido">mido</a>
+ &#8226;   <a href="#mido.backends">mido.backends</a>
+ &#8226;   <a href="#mido.backends.backend">mido.backends.backend</a>
+ &#8226;   <a href="#mido.messages">mido.messages</a>
+ &#8226;   <a href="#mido.midifiles">mido.midifiles</a>
+ &#8226;   <a href="#mido.parser">mido.parser</a>
+ &#8226;   <a href="#mido.ports">mido.ports</a>
+ &#8226;   <a href="#mido.sockets">mido.sockets</a>
+ &#8226;   <a href="#mido.syx">mido.syx</a>
+ &#8226;   <a href="#mido.tokenizer">mido.tokenizer</a>
+ &#8226;   <a href="#mido.version">mido.version</a>
+ &#8226;   <a href="#utils.loadMusicalScore">utils.loadMusicalScore</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="mido.backends"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/mido/backends/__init__.py" type="text/plain"><tt>mido.backends</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#mido">mido</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#mido.backends.backend">mido.backends.backend</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="mido.backends.backend"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/mido/backends/backend.py" type="text/plain"><tt>mido.backends.backend</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#importlib">importlib</a>
+ &#8226;   <a href="#mido">mido</a>
+ &#8226;   <a href="#mido.backends">mido.backends</a>
+ &#8226;   <a href="#mido.ports">mido.ports</a>
+ &#8226;   <a href="#os">os</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#mido">mido</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="mido.messages"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/mido/messages/__init__.py" type="text/plain"><tt>mido.messages</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#mido">mido</a>
+ &#8226;   <a href="#mido.messages.checks">mido.messages.checks</a>
+ &#8226;   <a href="#mido.messages.messages">mido.messages.messages</a>
+ &#8226;   <a href="#mido.messages.specs">mido.messages.specs</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#mido">mido</a>
+ &#8226;   <a href="#mido.messages.checks">mido.messages.checks</a>
+ &#8226;   <a href="#mido.messages.decode">mido.messages.decode</a>
+ &#8226;   <a href="#mido.messages.encode">mido.messages.encode</a>
+ &#8226;   <a href="#mido.messages.messages">mido.messages.messages</a>
+ &#8226;   <a href="#mido.messages.specs">mido.messages.specs</a>
+ &#8226;   <a href="#mido.messages.strings">mido.messages.strings</a>
+ &#8226;   <a href="#mido.midifiles.meta">mido.midifiles.meta</a>
+ &#8226;   <a href="#mido.midifiles.midifiles">mido.midifiles.midifiles</a>
+ &#8226;   <a href="#mido.parser">mido.parser</a>
+ &#8226;   <a href="#mido.ports">mido.ports</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="mido.messages.checks"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/mido/messages/checks.py" type="text/plain"><tt>mido.messages.checks</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#mido.messages">mido.messages</a>
+ &#8226;   <a href="#mido.messages.specs">mido.messages.specs</a>
+ &#8226;   <a href="#numbers">numbers</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#mido.messages">mido.messages</a>
+ &#8226;   <a href="#mido.messages.decode">mido.messages.decode</a>
+ &#8226;   <a href="#mido.messages.messages">mido.messages.messages</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="mido.messages.decode"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/mido/messages/decode.py" type="text/plain"><tt>mido.messages.decode</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#mido.messages">mido.messages</a>
+ &#8226;   <a href="#mido.messages.checks">mido.messages.checks</a>
+ &#8226;   <a href="#mido.messages.specs">mido.messages.specs</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#mido.messages.messages">mido.messages.messages</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="mido.messages.encode"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/mido/messages/encode.py" type="text/plain"><tt>mido.messages.encode</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#mido.messages">mido.messages</a>
+ &#8226;   <a href="#mido.messages.specs">mido.messages.specs</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#mido.messages.messages">mido.messages.messages</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="mido.messages.messages"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/mido/messages/messages.py" type="text/plain"><tt>mido.messages.messages</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#mido.messages">mido.messages</a>
+ &#8226;   <a href="#mido.messages.checks">mido.messages.checks</a>
+ &#8226;   <a href="#mido.messages.decode">mido.messages.decode</a>
+ &#8226;   <a href="#mido.messages.encode">mido.messages.encode</a>
+ &#8226;   <a href="#mido.messages.specs">mido.messages.specs</a>
+ &#8226;   <a href="#mido.messages.strings">mido.messages.strings</a>
+ &#8226;   <a href="#re">re</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#mido.messages">mido.messages</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="mido.messages.specs"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/mido/messages/specs.py" type="text/plain"><tt>mido.messages.specs</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#mido.messages">mido.messages</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#mido.messages">mido.messages</a>
+ &#8226;   <a href="#mido.messages.checks">mido.messages.checks</a>
+ &#8226;   <a href="#mido.messages.decode">mido.messages.decode</a>
+ &#8226;   <a href="#mido.messages.encode">mido.messages.encode</a>
+ &#8226;   <a href="#mido.messages.messages">mido.messages.messages</a>
+ &#8226;   <a href="#mido.messages.strings">mido.messages.strings</a>
+ &#8226;   <a href="#mido.tokenizer">mido.tokenizer</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="mido.messages.strings"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/mido/messages/strings.py" type="text/plain"><tt>mido.messages.strings</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#mido.messages">mido.messages</a>
+ &#8226;   <a href="#mido.messages.specs">mido.messages.specs</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#mido.messages.messages">mido.messages.messages</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="mido.midifiles"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/mido/midifiles/__init__.py" type="text/plain"><tt>mido.midifiles</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#mido">mido</a>
+ &#8226;   <a href="#mido.midifiles.meta">mido.midifiles.meta</a>
+ &#8226;   <a href="#mido.midifiles.midifiles">mido.midifiles.midifiles</a>
+ &#8226;   <a href="#mido.midifiles.tracks">mido.midifiles.tracks</a>
+ &#8226;   <a href="#mido.midifiles.units">mido.midifiles.units</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#mido">mido</a>
+ &#8226;   <a href="#mido.midifiles.meta">mido.midifiles.meta</a>
+ &#8226;   <a href="#mido.midifiles.midifiles">mido.midifiles.midifiles</a>
+ &#8226;   <a href="#mido.midifiles.tracks">mido.midifiles.tracks</a>
+ &#8226;   <a href="#mido.midifiles.units">mido.midifiles.units</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="mido.midifiles.meta"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/mido/midifiles/meta.py" type="text/plain"><tt>mido.midifiles.meta</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#contextlib">contextlib</a>
+ &#8226;   <a href="#math">math</a>
+ &#8226;   <a href="#mido.messages">mido.messages</a>
+ &#8226;   <a href="#mido.midifiles">mido.midifiles</a>
+ &#8226;   <a href="#numbers">numbers</a>
+ &#8226;   <a href="#struct">struct</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#mido.midifiles">mido.midifiles</a>
+ &#8226;   <a href="#mido.midifiles.midifiles">mido.midifiles.midifiles</a>
+ &#8226;   <a href="#mido.midifiles.tracks">mido.midifiles.tracks</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="mido.midifiles.midifiles"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/mido/midifiles/midifiles.py" type="text/plain"><tt>mido.midifiles.midifiles</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#mido.messages">mido.messages</a>
+ &#8226;   <a href="#mido.midifiles">mido.midifiles</a>
+ &#8226;   <a href="#mido.midifiles.meta">mido.midifiles.meta</a>
+ &#8226;   <a href="#mido.midifiles.tracks">mido.midifiles.tracks</a>
+ &#8226;   <a href="#mido.midifiles.units">mido.midifiles.units</a>
+ &#8226;   <a href="#numbers">numbers</a>
+ &#8226;   <a href="#string">string</a>
+ &#8226;   <a href="#struct">struct</a>
+ &#8226;   <a href="#time">time</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#mido.midifiles">mido.midifiles</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="mido.midifiles.tracks"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/mido/midifiles/tracks.py" type="text/plain"><tt>mido.midifiles.tracks</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#mido.midifiles">mido.midifiles</a>
+ &#8226;   <a href="#mido.midifiles.meta">mido.midifiles.meta</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#mido.midifiles">mido.midifiles</a>
+ &#8226;   <a href="#mido.midifiles.midifiles">mido.midifiles.midifiles</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="mido.midifiles.units"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/mido/midifiles/units.py" type="text/plain"><tt>mido.midifiles.units</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#mido.midifiles">mido.midifiles</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#mido.midifiles">mido.midifiles</a>
+ &#8226;   <a href="#mido.midifiles.midifiles">mido.midifiles.midifiles</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="mido.parser"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/mido/parser.py" type="text/plain"><tt>mido.parser</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#collections">collections</a>
+ &#8226;   <a href="#mido">mido</a>
+ &#8226;   <a href="#mido.messages">mido.messages</a>
+ &#8226;   <a href="#mido.tokenizer">mido.tokenizer</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#mido">mido</a>
+ &#8226;   <a href="#mido.ports">mido.ports</a>
+ &#8226;   <a href="#mido.sockets">mido.sockets</a>
+ &#8226;   <a href="#mido.syx">mido.syx</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="mido.ports"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/mido/ports.py" type="text/plain"><tt>mido.ports</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#mido">mido</a>
+ &#8226;   <a href="#mido.messages">mido.messages</a>
+ &#8226;   <a href="#mido.parser">mido.parser</a>
+ &#8226;   <a href="#random">random</a>
+ &#8226;   <a href="#threading">threading</a>
+ &#8226;   <a href="#time">time</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#mido">mido</a>
+ &#8226;   <a href="#mido.backends.backend">mido.backends.backend</a>
+ &#8226;   <a href="#mido.sockets">mido.sockets</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="mido.sockets"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/mido/sockets.py" type="text/plain"><tt>mido.sockets</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#mido">mido</a>
+ &#8226;   <a href="#mido.parser">mido.parser</a>
+ &#8226;   <a href="#mido.ports">mido.ports</a>
+ &#8226;   <a href="#select">select</a>
+ &#8226;   <a href="#socket">socket</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#mido">mido</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="mido.syx"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/mido/syx.py" type="text/plain"><tt>mido.syx</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#mido">mido</a>
+ &#8226;   <a href="#mido.parser">mido.parser</a>
+ &#8226;   <a href="#re">re</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#mido">mido</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="mido.tokenizer"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/mido/tokenizer.py" type="text/plain"><tt>mido.tokenizer</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#collections">collections</a>
+ &#8226;   <a href="#mido">mido</a>
+ &#8226;   <a href="#mido.messages.specs">mido.messages.specs</a>
+ &#8226;   <a href="#numbers">numbers</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#mido.parser">mido.parser</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="mido.version"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/mido/version.py" type="text/plain"><tt>mido.version</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#importlib.metadata">importlib.metadata</a>
+ &#8226;   <a href="#importlib_metadata">importlib_metadata</a>
+ &#8226;   <a href="#mido">mido</a>
+ &#8226;   <a href="#packaging.version">packaging.version</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#mido">mido</a>
 
   </div>
 
@@ -13572,6 +14265,10 @@ imported by:
  &#8226;   <a href="#PIL._typing">PIL._typing</a>
  &#8226;   <a href="#_pydecimal">_pydecimal</a>
  &#8226;   <a href="#fractions">fractions</a>
+ &#8226;   <a href="#mido.messages.checks">mido.messages.checks</a>
+ &#8226;   <a href="#mido.midifiles.meta">mido.midifiles.meta</a>
+ &#8226;   <a href="#mido.midifiles.midifiles">mido.midifiles.midifiles</a>
+ &#8226;   <a href="#mido.tokenizer">mido.tokenizer</a>
  &#8226;   <a href="#numpy._core.arrayprint">numpy._core.arrayprint</a>
  &#8226;   <a href="#numpy._core.numeric">numpy._core.numeric</a>
  &#8226;   <a href="#numpy._core.numerictypes">numpy._core.numerictypes</a>
@@ -13821,7 +14518,10 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#numpy">numpy</a>
+    <a href="#cv2">cv2</a>
+ &#8226;   <a href="#cv2.mat_wrapper">cv2.mat_wrapper</a>
+ &#8226;   <a href="#cv2.typing">cv2.typing</a>
+ &#8226;   <a href="#numpy">numpy</a>
  &#8226;   <a href="#numpy.__config__">numpy.__config__</a>
  &#8226;   <a href="#numpy._array_api_info">numpy._array_api_info</a>
  &#8226;   <a href="#numpy._core">numpy._core</a>
@@ -13897,6 +14597,7 @@ imported by:
  &#8226;   <a href="#numpy.typing">numpy.typing</a>
  &#8226;   <a href="#numpy.version">numpy.version</a>
  &#8226;   <a href="#pyscreeze">pyscreeze</a>
+ &#8226;   <a href="#utils.isPlayMode">utils.isPlayMode</a>
 
   </div>
 
@@ -14201,6 +14902,7 @@ imported by:
  &#8226;   <a href="#numpy._core.tests">numpy._core.tests</a>
  &#8226;   <a href="#numpy._core.umath">numpy._core.umath</a>
  &#8226;   <a href="#numpy.core">numpy.core</a>
+ &#8226;   <a href="#numpy.core.multiarray">numpy.core.multiarray</a>
  &#8226;   <a href="#numpy.fft._helper">numpy.fft._helper</a>
  &#8226;   <a href="#numpy.fft._pocketfft">numpy.fft._pocketfft</a>
  &#8226;   <a href="#numpy.lib._array_utils_impl">numpy.lib._array_utils_impl</a>
@@ -16225,6 +16927,7 @@ imported by:
  &#8226;   <a href="#numpy._core.shape_base">numpy._core.shape_base</a>
  &#8226;   <a href="#numpy._core.strings">numpy._core.strings</a>
  &#8226;   <a href="#numpy._typing._array_like">numpy._typing._array_like</a>
+ &#8226;   <a href="#numpy.core.multiarray">numpy.core.multiarray</a>
  &#8226;   <a href="#numpy.ctypeslib">numpy.ctypeslib</a>
  &#8226;   <a href="#numpy.lib._function_base_impl">numpy.lib._function_base_impl</a>
  &#8226;   <a href="#numpy.lib._index_tricks_impl">numpy.lib._index_tricks_impl</a>
@@ -17704,6 +18407,7 @@ imports:
 imported by:
     <a href="#numpy">numpy</a>
  &#8226;   <a href="#numpy.core._utils">numpy.core._utils</a>
+ &#8226;   <a href="#numpy.core.multiarray">numpy.core.multiarray</a>
 
   </div>
 
@@ -17721,6 +18425,26 @@ imports:
   <div class="import">
 imported by:
     <a href="#numpy.core">numpy.core</a>
+ &#8226;   <a href="#numpy.core.multiarray">numpy.core.multiarray</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="numpy.core.multiarray"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/numpy/core/multiarray.py" type="text/plain"><tt>numpy.core.multiarray</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#numpy._core">numpy._core</a>
+ &#8226;   <a href="#numpy._core.multiarray">numpy._core.multiarray</a>
+ &#8226;   <a href="#numpy.core">numpy.core</a>
+ &#8226;   <a href="#numpy.core._utils">numpy.core._utils</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#cv2">cv2</a>
 
   </div>
 
@@ -20351,6 +21075,10 @@ imported by:
  &#8226;   <a href="#ctypes.macholib.dyld">ctypes.macholib.dyld</a>
  &#8226;   <a href="#ctypes.util">ctypes.util</a>
  &#8226;   <a href="#curses">curses</a>
+ &#8226;   <a href="#cv2">cv2</a>
+ &#8226;   <a href="#cv2.config">cv2.config</a>
+ &#8226;   <a href="#cv2.data">cv2.data</a>
+ &#8226;   <a href="#cv2.load_config_py3">cv2.load_config_py3</a>
  &#8226;   <a href="#doctest">doctest</a>
  &#8226;   <a href="#email.utils">email.utils</a>
  &#8226;   <a href="#fileinput">fileinput</a>
@@ -20373,6 +21101,7 @@ imported by:
  &#8226;   <a href="#logging">logging</a>
  &#8226;   <a href="#lzma">lzma</a>
  &#8226;   <a href="#main.py">main.py</a>
+ &#8226;   <a href="#mido.backends.backend">mido.backends.backend</a>
  &#8226;   <a href="#mimetypes">mimetypes</a>
  &#8226;   <a href="#mouseinfo">mouseinfo</a>
  &#8226;   <a href="#multiprocessing.connection">multiprocessing.connection</a>
@@ -20978,6 +21707,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#PIL.ImageFont">PIL.ImageFont</a>
+ &#8226;   <a href="#mido.version">mido.version</a>
  &#8226;   <a href="#packaging.metadata">packaging.metadata</a>
  &#8226;   <a href="#packaging.specifiers">packaging.specifiers</a>
  &#8226;   <a href="#packaging.utils">packaging.utils</a>
@@ -21303,6 +22033,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#_pyrepl.unix_console">_pyrepl.unix_console</a>
+ &#8226;   <a href="#cv2">cv2</a>
  &#8226;   <a href="#mouseinfo">mouseinfo</a>
  &#8226;   <a href="#numpy.f2py.crackfortran">numpy.f2py.crackfortran</a>
  &#8226;   <a href="#numpy.lib._utils_impl">numpy.lib._utils_impl</a>
@@ -21616,6 +22347,7 @@ imported by:
  &#8226;   <a href="#pyautogui._pyautogui_osx">pyautogui._pyautogui_osx</a>
  &#8226;   <a href="#pyautogui._pyautogui_win">pyautogui._pyautogui_win</a>
  &#8226;   <a href="#pyautogui._pyautogui_x11">pyautogui._pyautogui_x11</a>
+ &#8226;   <a href="#utils.isPlayMode">utils.isPlayMode</a>
 
   </div>
 
@@ -22063,6 +22795,7 @@ imported by:
     <a href="#PIL.ImagePalette">PIL.ImagePalette</a>
  &#8226;   <a href="#email.generator">email.generator</a>
  &#8226;   <a href="#email.utils">email.utils</a>
+ &#8226;   <a href="#mido.ports">mido.ports</a>
  &#8226;   <a href="#secrets">secrets</a>
  &#8226;   <a href="#setuptools._vendor.more_itertools.more">setuptools._vendor.more_itertools.more</a>
  &#8226;   <a href="#setuptools._vendor.more_itertools.recipes">setuptools._vendor.more_itertools.recipes</a>
@@ -22151,6 +22884,8 @@ imported by:
  &#8226;   <a href="#locale">locale</a>
  &#8226;   <a href="#logging">logging</a>
  &#8226;   <a href="#main.py">main.py</a>
+ &#8226;   <a href="#mido.messages.messages">mido.messages.messages</a>
+ &#8226;   <a href="#mido.syx">mido.syx</a>
  &#8226;   <a href="#numpy._core._internal">numpy._core._internal</a>
  &#8226;   <a href="#numpy._typing._add_docstring">numpy._typing._add_docstring</a>
  &#8226;   <a href="#numpy.f2py._backends._meson">numpy.f2py._backends._meson</a>
@@ -22258,7 +22993,6 @@ imported by:
  &#8226;   <a href="#unittest.loader">unittest.loader</a>
  &#8226;   <a href="#urllib.parse">urllib.parse</a>
  &#8226;   <a href="#urllib.request">urllib.request</a>
- &#8226;   <a href="#utils.loadMusicalScore">utils.loadMusicalScore</a>
  &#8226;   <a href="#warnings">warnings</a>
  &#8226;   <a href="#xml.etree.ElementPath">xml.etree.ElementPath</a>
  &#8226;   <a href="#xml.etree.ElementTree">xml.etree.ElementTree</a>
@@ -22486,6 +23220,7 @@ imported by:
 imported by:
     <a href="#_pyrepl.unix_console">_pyrepl.unix_console</a>
  &#8226;   <a href="#http.server">http.server</a>
+ &#8226;   <a href="#mido.sockets">mido.sockets</a>
  &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#selectors">selectors</a>
  &#8226;   <a href="#subprocess">subprocess</a>
@@ -22975,11 +23710,7 @@ imported by:
   <a target="code" href="///F:/Code%20Projects/GenshinMusician/.venv/Lib/site-packages/setuptools/_distutils/command/check.py" type="text/plain"><tt>setuptools._distutils.command.check</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#'docutils.nodes'">'docutils.nodes'</a>
- &#8226;   <a href="#'docutils.parsers'">'docutils.parsers'</a>
- &#8226;   <a href="#'docutils.utils'">'docutils.utils'</a>
- &#8226;   <a href="#contextlib">contextlib</a>
- &#8226;   <a href="#docutils">docutils</a>
+    <a href="#contextlib">contextlib</a>
  &#8226;   <a href="#setuptools._distutils.command">setuptools._distutils.command</a>
  &#8226;   <a href="#setuptools._distutils.core">setuptools._distutils.core</a>
  &#8226;   <a href="#setuptools._distutils.errors">setuptools._distutils.errors</a>
@@ -23569,7 +24300,6 @@ imports:
  &#8226;   <a href="#itertools">itertools</a>
  &#8226;   <a href="#jaraco.functools">jaraco.functools</a>
  &#8226;   <a href="#jaraco.text">jaraco.text</a>
- &#8226;   <a href="#jaraco.text.yield_lines">jaraco.text.yield_lines</a>
  &#8226;   <a href="#more_itertools">more_itertools</a>
  &#8226;   <a href="#operator">operator</a>
  &#8226;   <a href="#setuptools">setuptools</a>
@@ -25655,7 +26385,6 @@ imports:
  &#8226;   <a href="#io">io</a>
  &#8226;   <a href="#itertools">itertools</a>
  &#8226;   <a href="#jaraco.text">jaraco.text</a>
- &#8226;   <a href="#jaraco.text.yield_lines">jaraco.text.yield_lines</a>
  &#8226;   <a href="#packaging.requirements">packaging.requirements</a>
  &#8226;   <a href="#setuptools">setuptools</a>
  &#8226;   <a href="#setuptools._reqs">setuptools._reqs</a>
@@ -26940,6 +27669,7 @@ imported by:
  &#8226;   <a href="#ftplib">ftplib</a>
  &#8226;   <a href="#http.client">http.client</a>
  &#8226;   <a href="#http.server">http.server</a>
+ &#8226;   <a href="#mido.sockets">mido.sockets</a>
  &#8226;   <a href="#multiprocessing.connection">multiprocessing.connection</a>
  &#8226;   <a href="#multiprocessing.forkserver">multiprocessing.forkserver</a>
  &#8226;   <a href="#multiprocessing.reduction">multiprocessing.reduction</a>
@@ -27143,6 +27873,7 @@ imported by:
  &#8226;   <a href="#email._header_value_parser">email._header_value_parser</a>
  &#8226;   <a href="#email.quoprimime">email.quoprimime</a>
  &#8226;   <a href="#logging">logging</a>
+ &#8226;   <a href="#mido.midifiles.midifiles">mido.midifiles.midifiles</a>
  &#8226;   <a href="#ntpath">ntpath</a>
  &#8226;   <a href="#nturl2path">nturl2path</a>
  &#8226;   <a href="#numpy.f2py._backends._meson">numpy.f2py._backends._meson</a>
@@ -27209,6 +27940,8 @@ imported by:
  &#8226;   <a href="#ctypes.util">ctypes.util</a>
  &#8226;   <a href="#gettext">gettext</a>
  &#8226;   <a href="#gzip">gzip</a>
+ &#8226;   <a href="#mido.midifiles.meta">mido.midifiles.meta</a>
+ &#8226;   <a href="#mido.midifiles.midifiles">mido.midifiles.midifiles</a>
  &#8226;   <a href="#multiprocessing.connection">multiprocessing.connection</a>
  &#8226;   <a href="#multiprocessing.forkserver">multiprocessing.forkserver</a>
  &#8226;   <a href="#multiprocessing.shared_memory">multiprocessing.shared_memory</a>
@@ -27376,6 +28109,9 @@ imported by:
  &#8226;   <a href="#ctypes._endian">ctypes._endian</a>
  &#8226;   <a href="#ctypes.util">ctypes.util</a>
  &#8226;   <a href="#curses">curses</a>
+ &#8226;   <a href="#cv2">cv2</a>
+ &#8226;   <a href="#cv2.gapi">cv2.gapi</a>
+ &#8226;   <a href="#cv2.load_config_py3">cv2.load_config_py3</a>
  &#8226;   <a href="#dataclasses">dataclasses</a>
  &#8226;   <a href="#decimal">decimal</a>
  &#8226;   <a href="#dis">dis</a>
@@ -27800,6 +28536,7 @@ imported by:
  &#8226;   <a href="#http.cookiejar">http.cookiejar</a>
  &#8226;   <a href="#importlib.util">importlib.util</a>
  &#8226;   <a href="#logging">logging</a>
+ &#8226;   <a href="#mido.ports">mido.ports</a>
  &#8226;   <a href="#multiprocessing.context">multiprocessing.context</a>
  &#8226;   <a href="#multiprocessing.dummy">multiprocessing.dummy</a>
  &#8226;   <a href="#multiprocessing.forkserver">multiprocessing.forkserver</a>
@@ -27866,6 +28603,8 @@ imported by:
  &#8226;   <a href="#http.server">http.server</a>
  &#8226;   <a href="#logging">logging</a>
  &#8226;   <a href="#main.py">main.py</a>
+ &#8226;   <a href="#mido.midifiles.midifiles">mido.midifiles.midifiles</a>
+ &#8226;   <a href="#mido.ports">mido.ports</a>
  &#8226;   <a href="#multiprocessing.connection">multiprocessing.connection</a>
  &#8226;   <a href="#multiprocessing.managers">multiprocessing.managers</a>
  &#8226;   <a href="#multiprocessing.pool">multiprocessing.pool</a>
@@ -28339,6 +29078,8 @@ imported by:
  &#8226;   <a href="#_pyrepl.unix_console">_pyrepl.unix_console</a>
  &#8226;   <a href="#_pyrepl.windows_console">_pyrepl.windows_console</a>
  &#8226;   <a href="#asyncio.timeouts">asyncio.timeouts</a>
+ &#8226;   <a href="#cv2.mat_wrapper">cv2.mat_wrapper</a>
+ &#8226;   <a href="#cv2.typing">cv2.typing</a>
  &#8226;   <a href="#functools">functools</a>
  &#8226;   <a href="#importlib.metadata">importlib.metadata</a>
  &#8226;   <a href="#importlib.metadata._meta">importlib.metadata._meta</a>
@@ -28448,6 +29189,7 @@ imported by:
  &#8226;   <a href="#tomllib._re">tomllib._re</a>
  &#8226;   <a href="#tomllib._types">tomllib._types</a>
  &#8226;   <a href="#typing_extensions">typing_extensions</a>
+ &#8226;   <a href="#utils.loadMusicalScore">utils.loadMusicalScore</a>
 
   </div>
 
@@ -29001,6 +29743,7 @@ imported by:
 <span class="moduletype">NamespacePackage</span>  <div class="import">
 imported by:
     <a href="#utils.activateTargetWindow">utils.activateTargetWindow</a>
+ &#8226;   <a href="#utils.isPlayMode">utils.isPlayMode</a>
  &#8226;   <a href="#utils.loadMusicalScore">utils.loadMusicalScore</a>
 
   </div>
@@ -29028,11 +29771,31 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="utils.isPlayMode"></a>
+  <a target="code" href="///F:/Code%20Projects/GenshinMusician/utils/isPlayMode.py" type="text/plain"><tt>utils.isPlayMode</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#cv2">cv2</a>
+ &#8226;   <a href="#numpy">numpy</a>
+ &#8226;   <a href="#pyautogui">pyautogui</a>
+ &#8226;   <a href="#utils">utils</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#main.py">main.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="utils.loadMusicalScore"></a>
   <a target="code" href="///F:/Code%20Projects/GenshinMusician/utils/loadMusicalScore.py" type="text/plain"><tt>utils.loadMusicalScore</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#re">re</a>
+    <a href="#mido">mido</a>
+ &#8226;   <a href="#typing">typing</a>
  &#8226;   <a href="#utils">utils</a>
 
   </div>
@@ -29540,7 +30303,6 @@ imported by:
 <span class="moduletype">Package</span>  <div class="import">
 imports:
     <a href="#xml">xml</a>
- &#8226;   <a href="#xml.parsers.expat">xml.parsers.expat</a>
 
   </div>
   <div class="import">
@@ -29568,7 +30330,6 @@ imports:
 imported by:
     <a href="#plistlib">plistlib</a>
  &#8226;   <a href="#xml.etree.ElementTree">xml.etree.ElementTree</a>
- &#8226;   <a href="#xml.parsers">xml.parsers</a>
  &#8226;   <a href="#xml.sax.expatreader">xml.sax.expatreader</a>
  &#8226;   <a href="#xmlrpc.client">xmlrpc.client</a>
 
