@@ -85,8 +85,9 @@ def match(path):
             max_val, min_val, max_loc, min_loc = cv2.minMaxLoc(result)
             threshold = 0.7
             if max_val >= threshold:
-                return (True, f"匹配成功，匹配值{max_val}")
-    return (False, f"匹配失败，匹配值{max_val}")
-if __name__ == "__main__":
-    print(match(f"cache\\piano.png")[1])
+                return (True, f"匹配成功 匹配值{max_val}")
+    return (False, f"匹配失败 匹配值{max_val}")
 
+
+if __name__ == "__main__":
+    print(match(".\\Gmidi\\cache\\piano.png")[1])

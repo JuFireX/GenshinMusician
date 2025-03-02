@@ -4,8 +4,6 @@ from ui.Ui_musician import Ui_Form
 from utils.activateTargetWindow import activate
 from utils.loadMusicalScore import loadScore
 from utils.isPlayMode import match
-import time
-import os
 
 
 class MainWindow(QWidget, Ui_Form):
@@ -153,7 +151,7 @@ class Musician(QThread):
 
     def tryActivateGenshin(self):
         Genshin = "原神"
-        template = "cache/piano.png"
+        template = "./Gmidi/cache/piano.png"
         isActive, msg = activate(Genshin)
         if isActive:
             self.logSignal.emit(msg)
@@ -170,6 +168,7 @@ class Musician(QThread):
 
     def mainlogic(self):
         import pyautogui
+        import time
 
         self.score = loadScore(self.path)
         self.tik = (30 / self.bpm) - 0.18
@@ -192,12 +191,52 @@ class Musician(QThread):
                     self.completeSignal.emit()
             self.lock.unlock()  # 释放锁
 
+    def newmainlogic(self):
+        import pyautogui
+        import time
+
+        self.score = loadScore(self.path, self.bpm)
+        startTime = time.time()
+        pauseTime = 0
+        resumeTime = 0
+
+        self.lock.lock()  # 获取锁
+        for i in range(len(self.score)):
+            if not self.is_paused:
+                if resumeTime - pauseTime > 0:
+                    startTime += resumeTime - pauseTime
+                    pauseTime = 0
+                    resumeTime = 0
+
+                pauseTime = time.time()
+                event = self.score[i]
+                targetTime = startTime + event[0]
+                delay = targetTime - time.time()
+                if delay > 0:
+                    time.sleep(delay)
+                pyautogui.hotkey(*event[1])
+                self.logSignal.emit(f"{event}")
+            else:
+                resumeTime = time.time()
+                continue
+        else:
+            self.is_running = False
+            self.logSignal.emit(f"播放结束")
+            self.completeSignal.emit()
+        self.lock.unlock()  # 释放锁
+
+
+def initWorkFolder():
+    import os
+
+    folderPath_1 = "./Gmidi/songs"
+    folderPath_2 = "./Gmidi/cache"
+    os.makedirs(folderPath_1, exist_ok=True)
+    os.makedirs(folderPath_2, exist_ok=True)
+
 
 if __name__ == "__main__":
-    folder_path_1 = "./Gmidi/songs"
-    folder_path_2 = "./Gmidi/cache"
-    os.makedirs(folder_path_1, exist_ok=True)
-    os.makedirs(folder_path_2, exist_ok=True)
+    initWorkFolder()
     app = QApplication()
     window = MainWindow()
     window.show()

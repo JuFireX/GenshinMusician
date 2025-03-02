@@ -3,7 +3,7 @@ from mido import MidiFile
 from typing import List, Tuple
 
 
-class GmidParser:
+class TextParser:
     KEY = ["QWERTYU", "ASDFGHJ", "ZXCVBNM", "()[]", " "]
     TEMP = ""
 
@@ -159,11 +159,19 @@ class MidiParser:
         return None
 
 
+class GmidParser:
+    @classmethod
+    def parse(cls, filePath: str) -> List[Tuple[float, tuple]]:
+        pass
+
+
 def loadScore(path: str, bpm=120):
     if path.endswith(".txt"):
-        Events = GmidParser.parse(path, bpm)
+        Events = TextParser.parse(path, bpm)
     elif path.endswith(".mid"):
         Events = MidiParser.parse(path)
+    elif path.endswith(".gmid"):
+        Events = GmidParser.parse(path)
     else:
         print("Unsupported file type")
         return []
@@ -171,11 +179,11 @@ def loadScore(path: str, bpm=120):
 
 
 if __name__ == "__main__":
-    filename = "F:/Code Projects/_Local Projects/GenshinMusician/testplace/0test.gmid"
+    filename = "./Gmidi/songs/欢乐颂.txt"
     testscore = []
 
     try:
-        testscore = loadScore(filename)
+        testscore = loadScore(filename, 120)
         print(f"乐谱文件 '{filename}' 加载成功")
     except FileNotFoundError:
         print(f"乐谱文件 '{filename}' 路径错误")
