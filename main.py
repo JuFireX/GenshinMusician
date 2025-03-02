@@ -166,32 +166,32 @@ class Musician(QThread):
             self.logSignal.emit(msg)
             return False
 
+    # def mainlogic(self):
+    #     import pyautogui
+    #     import time
+
+    #     self.score = loadScore(self.path)
+    #     self.tik = (30 / self.bpm) - 0.18
+    #     if self.tik < 0.01:
+    #         self.tik = 0.01
+
+    #     index = 0
+    #     while self.is_running:
+    #         self.lock.lock()  # 获取锁
+    #         if not self.is_paused:
+    #             chord = self.score[index][1]
+    #             self.logSignal.emit(f"{chord}")
+    #             pyautogui.hotkey(*chord)
+    #             time.sleep(self.tik)
+    #             index += 1
+    #             if index >= len(self.score):
+    #                 index = 0
+    #                 self.is_running = False
+    #                 self.logSignal.emit(f"播放结束")
+    #                 self.completeSignal.emit()
+    #         self.lock.unlock()  # 释放锁
+
     def mainlogic(self):
-        import pyautogui
-        import time
-
-        self.score = loadScore(self.path)
-        self.tik = (30 / self.bpm) - 0.18
-        if self.tik < 0.01:
-            self.tik = 0.01
-
-        index = 0
-        while self.is_running:
-            self.lock.lock()  # 获取锁
-            if not self.is_paused:
-                chord = self.score[index][1]
-                self.logSignal.emit(f"{chord}")
-                pyautogui.hotkey(*chord)
-                time.sleep(self.tik)
-                index += 1
-                if index >= len(self.score):
-                    index = 0
-                    self.is_running = False
-                    self.logSignal.emit(f"播放结束")
-                    self.completeSignal.emit()
-            self.lock.unlock()  # 释放锁
-
-    def newmainlogic(self):
         import pyautogui
         import time
 
