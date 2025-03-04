@@ -4,6 +4,7 @@ from ui.Ui_musician import Ui_Form
 from utils.activateTargetWindow import activate
 from utils.loadMusicalScore import loadScore
 from utils.isPlayMode import match
+import time
 
 
 class MainWindow(QWidget, Ui_Form):
@@ -115,10 +116,15 @@ class Musician(QThread):
         super().__init__()
         self.path = str(path)
         self.bpm = int(bpm)
+        self.lock = QMutex()  # 线程同步锁
         self.name = self.path.split("/")[-1].split(".")[0]
+
         self.is_running = False  # 线程运行标志
         self.is_paused = False  # 线程暂停标志
-        self.lock = QMutex()  # 线程同步锁
+
+        self.startTime = 0  # 开始时间
+        self.pauseTime = 0  # 暂停时间
+        self.resumeTime = 0  # 恢复时间
 
     def run(self):
         if self.tryActivateGenshin():
@@ -132,10 +138,12 @@ class Musician(QThread):
             return
 
     def pause(self):
+        self.pauseTime = time.time()
         self.logSignal.emit(f"播放暂停")
         self.is_paused = True
 
     def resume(self):
+        self.resumeTime = time.time()
         if self.tryActivateGenshin():
             self.logSignal.emit(f"播放继续")
             self.is_paused = False
@@ -151,79 +159,54 @@ class Musician(QThread):
 
     def tryActivateGenshin(self):
         Genshin = "原神"
-        template = "./Gmidi/cache/piano.png"
         isActive, msg = activate(Genshin)
         if isActive:
             self.logSignal.emit(msg)
-            isplay, msg = match(template)
-            if isplay:
-                self.logSignal.emit(msg)
-                return True
-            else:
-                self.logSignal.emit(msg)
-                return False
+            # template = "./Gmidi/cache/piano.png"
+            # isplay, msg = match(template)
+            # if isplay:
+            #     self.logSignal.emit(msg)
+            #     return True
+            # else:
+            #     self.logSignal.emit(msg)
+            #     return False
+            return True
         else:
             self.logSignal.emit(msg)
             return False
 
-    # def mainlogic(self):
-    #     import pyautogui
-    #     import time
-
-    #     self.score = loadScore(self.path)
-    #     self.tik = (30 / self.bpm) - 0.18
-    #     if self.tik < 0.01:
-    #         self.tik = 0.01
-
-    #     index = 0
-    #     while self.is_running:
-    #         self.lock.lock()  # 获取锁
-    #         if not self.is_paused:
-    #             chord = self.score[index][1]
-    #             self.logSignal.emit(f"{chord}")
-    #             pyautogui.hotkey(*chord)
-    #             time.sleep(self.tik)
-    #             index += 1
-    #             if index >= len(self.score):
-    #                 index = 0
-    #                 self.is_running = False
-    #                 self.logSignal.emit(f"播放结束")
-    #                 self.completeSignal.emit()
-    #         self.lock.unlock()  # 释放锁
-
     def mainlogic(self):
         import pyautogui
-        import time
 
         self.score = loadScore(self.path, self.bpm)
-        startTime = time.time()
-        pauseTime = 0
-        resumeTime = 0
+        self.startTime = time.time()
 
-        self.lock.lock()  # 获取锁
-        for i in range(len(self.score)):
+        index = 0
+        while self.is_running:
+            self.lock.lock()  # 获取锁
+
             if not self.is_paused:
-                if resumeTime - pauseTime > 0:
-                    startTime += resumeTime - pauseTime
-                    pauseTime = 0
-                    resumeTime = 0
+                if index >= len(self.score):
+                    self.is_running = False
+                    self.logSignal.emit(f"播放结束")
+                    self.completeSignal.emit()
 
-                pauseTime = time.time()
-                event = self.score[i]
-                targetTime = startTime + event[0]
-                delay = targetTime - time.time()
-                if delay > 0:
-                    time.sleep(delay)
-                pyautogui.hotkey(*event[1])
-                self.logSignal.emit(f"{event}")
-            else:
-                resumeTime = time.time()
-                continue
-        else:
-            self.is_running = False
-            self.logSignal.emit(f"播放结束")
-            self.completeSignal.emit()
-        self.lock.unlock()  # 释放锁
+                elif self.resumeTime - self.pauseTime > 0:
+                    self.startTime += self.resumeTime - self.pauseTime
+                    self.pauseTime = 0
+                    self.resumeTime = 0
+
+                else:
+                    event = self.score[index]
+                    self.logSignal.emit(f"{event}")
+                    targetTime = self.startTime + event[0]
+                    delay = targetTime - time.time()
+                    if delay > 0:
+                        time.sleep(delay)
+                    pyautogui.hotkey(*event[1])
+                    index += 1
+
+            self.lock.unlock()  # 释放锁
 
 
 def initWorkFolder():
