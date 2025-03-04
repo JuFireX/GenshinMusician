@@ -1169,7 +1169,7 @@
  [],
  False,
  False,
- 1741101697,
+ 1741102438,
  [('runw.exe',
    'f:\\Code '
    'Projects\\GenshinMusician\\.venv\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\runw.exe',
