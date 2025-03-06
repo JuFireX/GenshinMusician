@@ -92,7 +92,7 @@ class TextParser:
                             else:
                                 events.append((currentTime, tuple(notes)))
                                 currentTime += TEMP
-                    currentTime = round(currentTime, 3)
+                    currentTime = round(currentTime, 5)
                 else:
                     events.append((currentTime, tuple(note[1:-1])))
                     currentTime += duration
@@ -118,7 +118,7 @@ class MidiParser:
         for msg in track:
             duration = msg.dict()["time"] / TPB / bpm * 120
             currentTime += duration
-
+            currentTime = round(currentTime, 5)
             if msg.dict()["type"] == "note_on" and msg.dict()["velocity"] > 0:
                 note = cls.getNote(msg.dict()["note"])
                 if note is None:
