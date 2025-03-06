@@ -15,7 +15,7 @@ class MainWindow(QWidget, Ui_Form):
 
         self.path = ""
         self.name = ""
-        self.bpm = 60
+        self.bpm = 120
         self.status = -1
 
         self.bind()
@@ -28,7 +28,10 @@ class MainWindow(QWidget, Ui_Form):
 
     def select_path(self):
         self.path = QFileDialog.getOpenFileName(
-            self, "选择谱面", "./Gmidi/songs/", "Text Files (*.txt)"
+            self,
+            "选择谱面",
+            "./Gmidi/songs/",
+            "Text Files (*.txt);;Midi Files (*.mid *.gmid)",
         )[0]
         self.lineEdit_path.setText(self.path)
 

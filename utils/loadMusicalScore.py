@@ -1,5 +1,4 @@
-import mido
-from mido import MidiFile
+from mido import MidiFile, merge_tracks
 from typing import List, Tuple
 
 
@@ -101,75 +100,74 @@ class TextParser:
 
 
 class MidiParser:
-    NOTE_NAMES = ["C", "D", "E", "F", "G", "A", "B"]
-    OCTAVE_RANGES = {
-        "high": (72, 84),  # QWERTYU (C5-C6)
-        "mid": (60, 72),  # ASDFGHJ (C4-C5)
-        "low": (48, 60),  # ZXCVBNM (C3-C4)
-    }
-
     @classmethod
     def parse(cls, filePath: str, bpm: int = 120) -> List[Tuple[float, tuple]]:
-        mid = MidiFile(filePath)
+        midiFile = MidiFile(filePath)
+        track = merge_tracks(midiFile.tracks)
+
+        TYPE = midiFile.type
+        TPB = midiFile.ticks_per_beat
+        for msg in track:
+            if msg.type == "set_tempo":
+                TEMPO = msg.tempo
+                break
+
         events = []
-        tempo = 500000  # 默认120bpm (500000 μs/beat)
         currentTime = 0.0
-        activeNotes = {}  # {note: (start_time, velocity)}
 
-        for track in mid.tracks:
-            trackTime = 0.0
-            for msg in track:
-                trackTime += mido.tick2second(msg.time, mid.ticks_per_beat, tempo)
+        for msg in track:
+            duration = msg.dict()["time"] / TPB / bpm * 120
+            currentTime += duration
 
-                if msg.type == "set_tempo":
-                    tempo = msg.tempo
-                elif msg.type == "note_on" and msg.velocity > 0:
-                    activeNotes[msg.note] = (trackTime, msg.velocity)
-                elif msg.type in ["note_off", "note_on"] and msg.note in activeNotes:
-                    startTime, velocity = activeNotes.pop(msg.note)
-                    duration = trackTime - startTime
-                    if key := cls._convertMidiNote(msg.note):
-                        # 改动
-                        if len(events) == 0:
-                            events.append((round(startTime, 3), (key,)))
-                        elif (round(startTime, 3), (key,)) != events[-1]:
-                            events.append((round(startTime, 3), (key,)))
+            if msg.dict()["type"] == "note_on" and msg.dict()["velocity"] > 0:
+                note = cls.getNote(msg.dict()["note"])
+                if note is None:
+                    continue
+                event = [currentTime, tuple(note)]
+                events.append(tuple(event))
 
-        # 合并多音轨事件并排序
-        merged = sorted(events, key=lambda x: x[0])
-        return merged
+        events = sorted(events, key=lambda x: x[0])
+        events = cls.mergeTuples(events)
+        return events
 
-    @classmethod
-    def _convertMidiNote(cls, midiNote: int) -> str:
-        if midiNote % 12 in [1, 3, 6, 8, 10]:  # 排除半音
-            return None
-
-        noteName = cls.NOTE_NAMES[(midiNote - 60) % 12 // 2]
-        octave = (midiNote // 12) - 1
-
-        for rangeType, (low, high) in cls.OCTAVE_RANGES.items():
-            if low <= midiNote < high:
-                offset = (midiNote - low) // 12
-                if rangeType == "high":
-                    return chr(ord("Q") + offset)
-                elif rangeType == "mid":
-                    return chr(ord("A") + offset)
-                elif rangeType == "low":
-                    return chr(ord("Z") + offset)
+    @staticmethod
+    def getNote(value):
+        KEY = {
+            "QWERTYU": [72, 74, 76, 77, 79, 81, 83],
+            "ASDFGHJ": [60, 62, 64, 65, 67, 69, 71],
+            "ZXCVBNM": [48, 50, 52, 53, 55, 57, 59],
+        }
+        for key, values in KEY.items():
+            if value in values:
+                return key[values.index(value)]
         return None
+        # return MidiParser.getNote(value + 1)
+
+    @staticmethod
+    def mergeTuples(lst: List) -> List[Tuple[float, tuple]]:
+        merged = {}
+        for item in lst:
+            key = item[0]
+            elements = item[1]
+            if key in merged:
+                merged[key].extend(elements)
+            else:
+                merged[key] = list(elements)
+        # 保持原顺序
+        return [(key, tuple(values)) for key, values in merged.items()]
 
 
 class GmidParser:
     @classmethod
     def parse(cls, filePath: str) -> List[Tuple[float, tuple]]:
-        pass
+        return []
 
 
 def loadScore(path: str, bpm=120):
     if path.endswith(".txt"):
         Events = TextParser.parse(path, bpm)
     elif path.endswith(".mid"):
-        Events = MidiParser.parse(path)
+        Events = MidiParser.parse(path, bpm)
     elif path.endswith(".gmid"):
         Events = GmidParser.parse(path)
     else:
@@ -179,15 +177,9 @@ def loadScore(path: str, bpm=120):
 
 
 if __name__ == "__main__":
-    filename = "./Gmidi/songs/欢乐颂.txt"
-    testscore = []
-
-    try:
-        testscore = loadScore(filename, 120)
-        print(f"乐谱文件 '{filename}' 加载成功")
-    except FileNotFoundError:
-        print(f"乐谱文件 '{filename}' 路径错误")
-    except Exception as e:
-        print(f"乐谱文件 '{filename}' 加载失败: {e}")
-
+    # filename = "./Gmidi/songs/欢乐颂.txt"
+    # testscore = loadScore(filename, 120)
+    # print(testscore)
+    filename = "./Gmidi/songs/midi.mid"
+    testscore = loadScore(filename, 120)
     print(testscore)

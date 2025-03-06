@@ -8,7 +8,4 @@
     <file>res/stop_dark.svg</file>
     <file>res/stop_light.svg</file>
   </qresource>
-  <qresource prefix="temp">
-    <file>res/piano.png</file>
-  </qresource>
 </RCC>
